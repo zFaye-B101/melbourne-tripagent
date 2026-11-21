@@ -15,6 +15,7 @@
 - 第一轮迭代的规划见 [40 号现状与范围](docs/40_BASELINE_AND_FIRST_ITERATION_SCOPE.md)、[39 号架构框架](docs/39_ARCHITECTURE_AND_RESUME_PROJECT_FRAMEWORK.md)、[43 号 30 题评测草案](docs/43_EVAL_TASKS_AND_ACCEPTANCE_PROTOCOL_DRAFT.md)；38–43 号是从正式归档复制进来的副本，文内链接仍指向归档路径。
 
 在线 Demo：<https://zfaye-b101.github.io/melbourne-tripagent/>（GitHub Pages，规则路径）
+个人主页：<https://zfaye-b101.github.io/>
 源码：<https://github.com/zFaye-B101/melbourne-tripagent>
 
 ## 展示版界面
