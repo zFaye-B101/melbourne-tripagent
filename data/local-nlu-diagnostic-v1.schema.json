@@ -1,0 +1,120 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://melbourne-tripagent.local/schemas/local-nlu-diagnostic-v1.schema.json",
+  "title": "Local NLU Diagnostic v1",
+  "type": "object",
+  "additionalProperties": false,
+  "required": ["version", "event", "outcome", "binding", "firstFailure"],
+  "properties": {
+    "version": { "const": 1 },
+    "event": { "const": "nlu_validation" },
+    "outcome": { "enum": ["accepted", "fallback"] },
+    "binding": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["policy", "status", "reason", "addedPath", "addedCount"],
+      "properties": {
+        "policy": { "const": "evidence-binding-v1" },
+        "status": {
+          "enum": ["not_run", "not_needed", "applied", "skipped", "internal_error"]
+        },
+        "reason": {
+          "enum": [
+            "schema_not_passed",
+            "invalid_existing",
+            "missing_count_not_one",
+            "target_not_allowlisted",
+            "source_missing_or_ambiguous",
+            "proof_failed",
+            "post_validation_failed",
+            "disabled",
+            "scope_coordinate_reused",
+            "binding_exception"
+          ]
+        },
+        "addedPath": { "enum": ["/geography/strength", null] },
+        "addedCount": { "enum": [0, 1] }
+      }
+    },
+    "firstFailure": {
+      "oneOf": [
+        { "type": "null" },
+        {
+          "type": "object",
+          "additionalProperties": false,
+          "required": ["stage", "reason", "path"],
+          "properties": {
+            "stage": { "enum": ["schema", "evidence", "semantic", "normalization"] },
+            "reason": {
+              "enum": [
+                "schema.invalid",
+                "schema.post_binding_invalid",
+                "schema.validator_exception",
+                "evidence.unexpected_coordinate",
+                "evidence.duplicate_coordinate",
+                "evidence.quote_not_in_source",
+                "evidence.occurrence_out_of_range",
+                "evidence.child_coordinate_reused",
+                "evidence.literal_mismatch",
+                "evidence.missing_required_coordinate",
+                "evidence.binding_exception",
+                "evidence.validator_exception",
+                "semantic.input_too_long",
+                "semantic.invalid_cross_field_state",
+                "semantic.rule_mismatch",
+                "semantic.evidence_not_proven",
+                "semantic.unhandled_requirement_missing",
+                "semantic.validator_exception",
+                "normalization.exception"
+              ]
+            },
+            "path": {
+              "enum": [
+                null,
+                "/schemaVersion",
+                "/evidence",
+                "/destination/text",
+                "/destination/supportedCity",
+                "/days",
+                "/date/text",
+                "/date/isoDate",
+                "/date/resolution",
+                "/originText",
+                "/dailyStartText",
+                "/dailyStartMinutes",
+                "/geography/scope",
+                "/geography/strength",
+                "/pace",
+                "/venuePreference",
+                "/experiencePreferences/museum_exhibition",
+                "/experiencePreferences/history_heritage",
+                "/experiencePreferences/parks_gardens",
+                "/experiencePreferences/river_city_walk",
+                "/experiencePreferences/city_icons_views",
+                "/experiencePreferences/performance_music",
+                "/experiencePreferences/sports_venues",
+                "/experiencePreferences/market_local_life",
+                "/lowWalking",
+                "/family",
+                "/avoidCrowds",
+                "/party/adultFullFareCount",
+                "/party/concessionEligibleCount",
+                "/party/childAges",
+                "/party/ptvPaymentMedium",
+                "/budget/currency",
+                "/budget/totalCents",
+                "/costAssumptions/accommodation",
+                "/costAssumptions/accommodation/nights",
+                "/costAssumptions/food",
+                "/mustIncludeNames",
+                "/excludeNames",
+                "/unhandledRequirements",
+                "/unresolvedPhrases"
+              ]
+            }
+          }
+        }
+      ]
+    }
+  }
+}

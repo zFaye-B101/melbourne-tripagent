@@ -1,0 +1,29 @@
+name = "melbourne-tripagent-parse-bff"
+main = "entry.ts"
+compatibility_date = "2026-05-22"
+
+[vars]
+LLM_ENABLED = "false"
+LLM_LOCAL_DIAGNOSTICS = "false"
+LLM_RUNTIME_ENV = "production"
+LLM_LOCAL_BUDGET_ENABLED = "false"
+ALLOWED_ORIGINS = "http://localhost:3000"
+
+[[durable_objects.bindings]]
+name = "LLM_BUDGET_DO"
+class_name = "TripBudgetDurableObject"
+
+[[migrations]]
+tag = "v1"
+new_sqlite_classes = ["TripBudgetDurableObject"]
+
+# LLM_ENABLED=true is for controlled local trials only. Public requests stay
+# rules-only even with this flag, a provider key, and this rate limiter. Do not
+# remove that code gate until real shared-budget and cost controls pass
+# the release checklist. Example binding for local trials only:
+# [[ratelimits]]
+# name = "LLM_RATE_LIMITER"
+# namespace_id = "<positive-account-unique-integer>"
+# [ratelimits.simple]
+# limit = 20
+# period = 60

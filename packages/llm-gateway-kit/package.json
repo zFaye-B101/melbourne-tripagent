@@ -1,0 +1,25 @@
+{
+  "name": "llm-gateway-kit",
+  "version": "0.1.0",
+  "type": "module",
+  "private": true,
+  "exports": {
+    ".": {
+      "types": "./src/index.d.mts",
+      "import": "./src/index.mjs"
+    },
+    "./http": {
+      "types": "./src/http.d.mts",
+      "import": "./src/http.mjs"
+    },
+    "./budget-ledger": {
+      "types": "./src/budget-ledger.d.mts",
+      "import": "./src/budget-ledger.mjs"
+    },
+    "./cloudflare-budget": {
+      "types": "./src/cloudflare-budget.d.mts",
+      "import": "./src/cloudflare-budget.mjs"
+    }
+  },
+  "scripts": { "test": "node --test" }
+}

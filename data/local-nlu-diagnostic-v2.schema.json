@@ -1,0 +1,81 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://melbourne-tripagent.local/schemas/local-nlu-diagnostic-v2.schema.json",
+  "title": "Local NLU Diagnostic v2",
+  "type": "object",
+  "additionalProperties": false,
+  "required": ["version", "event", "outcome", "binding", "firstFailure", "mustIncludeCause"],
+  "properties": {
+    "version": { "const": 2 },
+    "event": { "const": "nlu_validation" },
+    "outcome": { "enum": ["accepted", "fallback"] },
+    "binding": { "$ref": "local-nlu-diagnostic-v1.schema.json#/properties/binding" },
+    "firstFailure": {
+      "oneOf": [
+        { "type": "null" },
+        {
+          "type": "object",
+          "additionalProperties": false,
+          "required": ["stage", "reason", "path"],
+          "properties": {
+            "stage": { "enum": ["schema", "evidence", "semantic", "normalization"] },
+            "reason": {
+              "$ref": "local-nlu-diagnostic-v1.schema.json#/properties/firstFailure/oneOf/1/properties/reason"
+            },
+            "path": {
+              "$ref": "local-nlu-diagnostic-v1.schema.json#/properties/firstFailure/oneOf/1/properties/path"
+            }
+          }
+        }
+      ]
+    },
+    "mustIncludeCause": {
+      "oneOf": [
+        { "type": "null" },
+        {
+          "type": "object",
+          "additionalProperties": false,
+          "required": ["code"],
+          "properties": {
+            "code": {
+              "enum": [
+                "unclassified",
+                "opposite_only",
+                "intent_marker_absent",
+                "opposite_nearer_or_tied"
+              ]
+            }
+          }
+        }
+      ]
+    }
+  },
+  "allOf": [
+    {
+      "if": { "properties": { "outcome": { "const": "accepted" } } },
+      "then": {
+        "properties": {
+          "firstFailure": { "type": "null" },
+          "mustIncludeCause": { "type": "null" }
+        }
+      },
+      "else": { "properties": { "firstFailure": { "type": "object" } } }
+    },
+    {
+      "if": {
+        "properties": {
+          "firstFailure": {
+            "type": "object",
+            "properties": {
+              "stage": { "const": "semantic" },
+              "reason": { "const": "semantic.evidence_not_proven" },
+              "path": { "const": "/mustIncludeNames" }
+            }
+          }
+        }
+      },
+      "then": { "properties": { "mustIncludeCause": { "type": "object" } } },
+      "else": { "properties": { "mustIncludeCause": { "type": "null" } } }
+    }
+  ]
+}

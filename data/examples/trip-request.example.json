@@ -1,0 +1,59 @@
+{
+  "schemaVersion": "trip-request-draft-v1",
+  "destination": {
+    "text": "墨尔本",
+    "supportedCity": "Melbourne"
+  },
+  "days": 2,
+  "date": {
+    "text": null,
+    "isoDate": null,
+    "resolution": "missing"
+  },
+  "pace": "relaxed",
+  "interests": ["art", "history"],
+  "preferences": {
+    "preferIndoor": true,
+    "lowWalking": true,
+    "family": null,
+    "avoidCrowds": null
+  },
+  "mustIncludeNames": ["Melbourne Skydeck"],
+  "excludeNames": ["SEA LIFE Melbourne Aquarium"],
+  "unhandledRequirements": [],
+  "unresolvedPhrases": [],
+  "evidence": [
+    {
+      "path": "/destination",
+      "quote": "墨尔本"
+    },
+    {
+      "path": "/days",
+      "quote": "两天"
+    },
+    {
+      "path": "/pace",
+      "quote": "轻松一点"
+    },
+    {
+      "path": "/interests",
+      "quote": "艺术和历史"
+    },
+    {
+      "path": "/preferences/preferIndoor",
+      "quote": "下雨优先室内"
+    },
+    {
+      "path": "/preferences/lowWalking",
+      "quote": "少走路"
+    },
+    {
+      "path": "/mustIncludeNames",
+      "quote": "必去 Melbourne Skydeck"
+    },
+    {
+      "path": "/excludeNames",
+      "quote": "不要去 SEA LIFE Melbourne Aquarium"
+    }
+  ]
+}

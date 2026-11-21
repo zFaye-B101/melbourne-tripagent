@@ -1,0 +1,179 @@
+{
+  "meta": {
+    "model": "qwen3.5:9b",
+    "think": false,
+    "numCtx": 16384,
+    "runsPerTask": 1,
+    "promptVersion": "nlu-extraction-system-v2.9",
+    "plannerVersion": "trip-planner-v0.4.3-local",
+    "poiDataVersion": "mel-poi-v0.1-2026-09-14",
+    "gitCommit": "28e29ff",
+    "workingTreeDirty": true,
+    "date": "2026-09-28",
+    "note": "本地模型，不代表线上模型；未花线上额度。",
+    "replayOf": null
+  },
+  "summary": {
+    "runs": 5,
+    "tasks": 5,
+    "llmAccepted": "0/5",
+    "llmAcceptedWhereProductionWouldCallModel": "0/2",
+    "acceptedButDiffersFromRules": 0,
+    "planOkChangedVsRules": 0,
+    "contextFullRuns": 0,
+    "latencyMs": {
+      "p50": 18719,
+      "p90": 33860,
+      "max": 33860
+    }
+  },
+  "rejectionReasons": {
+    "evidence.unexpected_coordinate @ /evidence": 1,
+    "semantic.unhandled_requirement_missing @ /dailyStartText": 1,
+    "semantic.evidence_not_proven @ /venuePreference": 1,
+    "semantic.evidence_not_proven @ /days": 1,
+    "semantic.evidence_not_proven @ /mustIncludeNames": 1
+  },
+  "records": [
+    {
+      "taskId": "01",
+      "run": 1,
+      "input": "我住 CBD，只玩 1 天，11 点开始，想看历史和艺术，别太赶。",
+      "productionTier": "rules",
+      "call": {
+        "ok": true,
+        "httpStatus": 200,
+        "error": null,
+        "wallMs": 33860,
+        "promptTokens": 3457,
+        "outputTokens": 664,
+        "contextFull": false,
+        "rawContentChars": 1877
+      },
+      "firstFailure": {
+        "stage": "evidence",
+        "reason": "evidence.unexpected_coordinate",
+        "path": "/evidence",
+        "message": "Evidence /experiencePreferences/museum_exhibition#scalar 没有对应的抽取值。"
+      },
+      "acceptedMode": "rules",
+      "fallbackReasonCode": "evidence_rejected",
+      "differsFromRules": [],
+      "planOk": true,
+      "rulesPlanOk": true,
+      "planHardFailures": 0
+    },
+    {
+      "taskId": "05",
+      "run": 1,
+      "input": "从 East Melbourne 出发，下午才开始，玩 1 天，想看花园和历史地点。",
+      "productionTier": "rules",
+      "call": {
+        "ok": true,
+        "httpStatus": 200,
+        "error": null,
+        "wallMs": 18719,
+        "promptTokens": 3452,
+        "outputTokens": 616,
+        "contextFull": false,
+        "rawContentChars": 1778
+      },
+      "firstFailure": {
+        "stage": "semantic",
+        "reason": "semantic.unhandled_requirement_missing",
+        "path": "/dailyStartText",
+        "message": "模糊出发时间必须保留为 unresolved。"
+      },
+      "acceptedMode": "rules",
+      "fallbackReasonCode": "semantic_rejected",
+      "differsFromRules": [],
+      "planOk": true,
+      "rulesPlanOk": true,
+      "planHardFailures": 0
+    },
+    {
+      "taskId": "22",
+      "run": 1,
+      "input": "现在预算降到 A$150、室内优先，玩 2 天；住宿预计每晚 A$100–150、住 1 晚，餐饮每人每天 A$30–50，请重新估算。",
+      "productionTier": "model",
+      "call": {
+        "ok": true,
+        "httpStatus": 200,
+        "error": null,
+        "wallMs": 23901,
+        "promptTokens": 3484,
+        "outputTokens": 803,
+        "contextFull": false,
+        "rawContentChars": 2175
+      },
+      "firstFailure": {
+        "stage": "semantic",
+        "reason": "semantic.evidence_not_proven",
+        "path": "/venuePreference",
+        "message": "室内外 evidence 与抽取值不一致。"
+      },
+      "acceptedMode": "rules",
+      "fallbackReasonCode": "semantic_rejected",
+      "differsFromRules": [],
+      "planOk": true,
+      "rulesPlanOk": true,
+      "planHardFailures": 0
+    },
+    {
+      "taskId": "27",
+      "run": 1,
+      "input": "只玩 2 天，但大洋路一定要排进墨尔本市区行程。",
+      "productionTier": "rules",
+      "call": {
+        "ok": true,
+        "httpStatus": 200,
+        "error": null,
+        "wallMs": 15022,
+        "promptTokens": 3449,
+        "outputTokens": 482,
+        "contextFull": false,
+        "rawContentChars": 1354
+      },
+      "firstFailure": {
+        "stage": "semantic",
+        "reason": "semantic.evidence_not_proven",
+        "path": "/days",
+        "message": "天数 evidence 与抽取值不一致。"
+      },
+      "acceptedMode": "rules",
+      "fallbackReasonCode": "semantic_rejected",
+      "differsFromRules": [],
+      "planOk": false,
+      "rulesPlanOk": false,
+      "planHardFailures": null
+    },
+    {
+      "taskId": "28",
+      "run": 1,
+      "input": "玩 1 天，Federation Square 必须去，但也必须避开 Federation Square。",
+      "productionTier": "model",
+      "call": {
+        "ok": true,
+        "httpStatus": 200,
+        "error": null,
+        "wallMs": 16546,
+        "promptTokens": 3450,
+        "outputTokens": 538,
+        "contextFull": false,
+        "rawContentChars": 1535
+      },
+      "firstFailure": {
+        "stage": "semantic",
+        "reason": "semantic.evidence_not_proven",
+        "path": "/mustIncludeNames",
+        "message": "/mustIncludeNames evidence 未把地点与明确意图绑定。"
+      },
+      "acceptedMode": "rules",
+      "fallbackReasonCode": "semantic_rejected",
+      "differsFromRules": [],
+      "planOk": false,
+      "rulesPlanOk": false,
+      "planHardFailures": null
+    }
+  ]
+}

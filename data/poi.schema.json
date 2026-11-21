@@ -1,0 +1,264 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://melbourne-tripagent.local/schemas/poi.schema.json",
+  "title": "Melbourne TripAgent POI",
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "poi_id",
+    "name",
+    "category",
+    "location",
+    "facts",
+    "fact_assertions",
+    "inferences",
+    "media",
+    "provenance",
+    "verification"
+  ],
+  "properties": {
+    "poi_id": {
+      "type": "string",
+      "pattern": "^mel-[a-z0-9-]+$"
+    },
+    "name": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["official", "zh", "aliases"],
+      "properties": {
+        "official": { "type": "string", "minLength": 1 },
+        "zh": { "type": ["string", "null"] },
+        "aliases": {
+          "type": "array",
+          "items": { "type": "string" },
+          "uniqueItems": true
+        }
+      }
+    },
+    "category": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["primary", "secondary"],
+      "properties": {
+        "primary": {
+          "type": "string",
+          "enum": ["art_culture", "history", "nature", "city_landmark", "market_food", "family"]
+        },
+        "secondary": {
+          "type": "array",
+          "items": { "type": "string" },
+          "uniqueItems": true
+        }
+      }
+    },
+    "location": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["city", "state", "country", "area", "latitude", "longitude"],
+      "properties": {
+        "address": { "type": ["string", "null"] },
+        "suburb": { "type": ["string", "null"] },
+        "area": { "type": "string", "minLength": 1 },
+        "city": { "const": "Melbourne" },
+        "state": { "const": "VIC" },
+        "country": { "const": "AU" },
+        "latitude": { "type": "number", "minimum": -90, "maximum": 90 },
+        "longitude": { "type": "number", "minimum": -180, "maximum": 180 }
+      }
+    },
+    "facts": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "official_url",
+        "opening_hours_text",
+        "admission",
+        "booking_required",
+        "accessibility_features",
+        "temporary_closure"
+      ],
+      "properties": {
+        "official_url": { "type": ["string", "null"], "format": "uri" },
+        "opening_hours_text": { "type": ["string", "null"] },
+        "admission": {
+          "type": "object",
+          "additionalProperties": false,
+          "required": ["price_type", "currency", "adult", "child", "concession", "text"],
+          "properties": {
+            "price_type": {
+              "type": "string",
+              "enum": ["free", "fixed", "from", "range", "unknown"]
+            },
+            "currency": { "type": ["string", "null"], "enum": ["AUD", null] },
+            "adult": { "type": ["number", "null"], "minimum": 0 },
+            "child": { "type": ["number", "null"], "minimum": 0 },
+            "concession": { "type": ["number", "null"], "minimum": 0 },
+            "text": { "type": ["string", "null"] }
+          }
+        },
+        "booking_required": { "type": ["boolean", "null"] },
+        "accessibility_features": {
+          "type": "array",
+          "items": { "type": "string" },
+          "uniqueItems": true
+        },
+        "temporary_closure": { "type": ["boolean", "null"] }
+      }
+    },
+    "fact_assertions": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": ["field", "value", "source_url", "retrieved_at", "authority", "status"],
+        "properties": {
+          "field": { "type": "string", "minLength": 1 },
+          "value": {},
+          "source_url": { "type": "string", "format": "uri" },
+          "retrieved_at": { "type": "string", "format": "date-time" },
+          "authority": {
+            "type": "string",
+            "enum": ["official", "licensed", "community"]
+          },
+          "status": {
+            "type": "string",
+            "enum": ["current", "stale", "conflicted", "unknown"]
+          }
+        }
+      }
+    },
+    "inferences": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "recommended_visit_minutes",
+        "indoor_outdoor",
+        "tags",
+        "rainy_day_suitability",
+        "generation"
+      ],
+      "properties": {
+        "recommended_visit_minutes": {
+          "type": ["integer", "null"],
+          "minimum": 15,
+          "maximum": 720
+        },
+        "indoor_outdoor": {
+          "type": "string",
+          "enum": ["indoor", "outdoor", "mixed", "conditional", "unknown"]
+        },
+        "tags": {
+          "type": "array",
+          "items": { "type": "string" },
+          "uniqueItems": true
+        },
+        "rainy_day_suitability": {
+          "type": "string",
+          "enum": ["good", "partial", "poor", "unknown"]
+        },
+        "generation": {
+          "type": "object",
+          "additionalProperties": false,
+          "required": [
+            "model",
+            "prompt_version",
+            "generated_at",
+            "evidence_fields",
+            "confidence",
+            "review_status"
+          ],
+          "properties": {
+            "model": { "type": ["string", "null"] },
+            "prompt_version": { "type": ["string", "null"] },
+            "generated_at": { "type": ["string", "null"], "format": "date-time" },
+            "evidence_fields": {
+              "type": "array",
+              "items": { "type": "string" },
+              "uniqueItems": true
+            },
+            "confidence": {
+              "type": "string",
+              "enum": ["low", "medium", "high", "not_generated"]
+            },
+            "review_status": {
+              "type": "string",
+              "enum": ["not_reviewed", "reviewed", "rejected", "not_generated"]
+            }
+          }
+        }
+      }
+    },
+    "media": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": [
+          "url",
+          "page_url",
+          "author",
+          "license",
+          "license_url",
+          "attribution",
+          "verified_at"
+        ],
+        "properties": {
+          "url": { "type": "string", "format": "uri" },
+          "page_url": { "type": "string", "format": "uri" },
+          "author": { "type": "string", "minLength": 1 },
+          "license": { "type": "string", "minLength": 1 },
+          "license_url": { "type": "string", "format": "uri" },
+          "attribution": { "type": "string", "minLength": 1 },
+          "verified_at": { "type": "string", "format": "date-time" }
+        }
+      }
+    },
+    "provenance": {
+      "type": "array",
+      "minItems": 1,
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": [
+          "source_name",
+          "source_record_id",
+          "source_url",
+          "license",
+          "retrieved_at",
+          "payload_hash"
+        ],
+        "properties": {
+          "source_name": { "type": "string", "minLength": 1 },
+          "source_record_id": { "type": ["string", "null"] },
+          "source_url": { "type": "string", "format": "uri" },
+          "license": { "type": ["string", "null"] },
+          "source_updated_at": { "type": ["string", "null"], "format": "date-time" },
+          "retrieved_at": { "type": "string", "format": "date-time" },
+          "payload_hash": { "type": "string", "minLength": 1 }
+        }
+      }
+    },
+    "verification": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["status", "verified_at", "verified_by", "valid_until", "notes"],
+      "properties": {
+        "status": {
+          "type": "string",
+          "enum": [
+            "unverified",
+            "partially_verified",
+            "verified_core",
+            "conflicted",
+            "stale",
+            "temporarily_closed"
+          ]
+        },
+        "verified_at": { "type": ["string", "null"], "format": "date-time" },
+        "verified_by": { "type": ["string", "null"] },
+        "valid_until": { "type": ["string", "null"], "format": "date-time" },
+        "notes": { "type": ["string", "null"] }
+      }
+    }
+  }
+}

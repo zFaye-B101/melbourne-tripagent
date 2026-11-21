@@ -1,0 +1,170 @@
+{
+  "meta": {
+    "model": "qwen3:8b",
+    "think": false,
+    "runsPerTask": 1,
+    "promptVersion": "nlu-extraction-system-v2.9",
+    "plannerVersion": "trip-planner-v0.4.3-local",
+    "poiDataVersion": "mel-poi-v0.1-2026-09-14",
+    "gitCommit": "7b76162",
+    "workingTreeDirty": true,
+    "date": "2026-09-28",
+    "note": "本地模型，不代表线上模型；未花线上额度。",
+    "replayOf": "eval/reports/ollama-qwen3-8b-2026-09-28-drafts.jsonl"
+  },
+  "summary": {
+    "runs": 5,
+    "tasks": 5,
+    "llmAccepted": "0/5",
+    "llmAcceptedWhereProductionWouldCallModel": "0/2",
+    "acceptedButDiffersFromRules": 0,
+    "planOkChangedVsRules": 0,
+    "latencyMs": {
+      "p50": 0,
+      "p90": 0,
+      "max": 0
+    }
+  },
+  "rejectionReasons": {
+    "evidence.missing_required_coordinate @ /date/resolution": 1,
+    "evidence.missing_required_coordinate @ /pace": 2,
+    "evidence.quote_not_in_source @ /evidence": 2
+  },
+  "records": [
+    {
+      "taskId": "01",
+      "run": 1,
+      "input": "我住 CBD，只玩 1 天，11 点开始，想看历史和艺术，别太赶。",
+      "productionTier": "rules",
+      "call": {
+        "ok": true,
+        "httpStatus": null,
+        "error": "no_call",
+        "wallMs": 0,
+        "promptTokens": null,
+        "outputTokens": null,
+        "rawContentChars": 2922
+      },
+      "firstFailure": {
+        "stage": "evidence",
+        "reason": "evidence.missing_required_coordinate",
+        "path": "/date/resolution",
+        "message": "抽取值 /date/resolution#scalar 缺少原文 evidence。"
+      },
+      "acceptedMode": "rules",
+      "fallbackReasonCode": "evidence_rejected",
+      "differsFromRules": [],
+      "planOk": true,
+      "rulesPlanOk": true,
+      "planHardFailures": 0
+    },
+    {
+      "taskId": "05",
+      "run": 1,
+      "input": "从 East Melbourne 出发，下午才开始，玩 1 天，想看花园和历史地点。",
+      "productionTier": "rules",
+      "call": {
+        "ok": true,
+        "httpStatus": null,
+        "error": "no_call",
+        "wallMs": 0,
+        "promptTokens": null,
+        "outputTokens": null,
+        "rawContentChars": 2397
+      },
+      "firstFailure": {
+        "stage": "evidence",
+        "reason": "evidence.missing_required_coordinate",
+        "path": "/pace",
+        "message": "抽取值 /pace#scalar 缺少原文 evidence。"
+      },
+      "acceptedMode": "rules",
+      "fallbackReasonCode": "evidence_rejected",
+      "differsFromRules": [],
+      "planOk": true,
+      "rulesPlanOk": true,
+      "planHardFailures": 0
+    },
+    {
+      "taskId": "22",
+      "run": 1,
+      "input": "现在预算降到 A$150、室内优先，玩 2 天；住宿预计每晚 A$100–150、住 1 晚，餐饮每人每天 A$30–50，请重新估算。",
+      "productionTier": "model",
+      "call": {
+        "ok": true,
+        "httpStatus": null,
+        "error": "no_call",
+        "wallMs": 0,
+        "promptTokens": null,
+        "outputTokens": null,
+        "rawContentChars": 2899
+      },
+      "firstFailure": {
+        "stage": "evidence",
+        "reason": "evidence.quote_not_in_source",
+        "path": "/evidence",
+        "message": "Evidence /destination/text#scalar 不是原文中的有效片段。"
+      },
+      "acceptedMode": "rules",
+      "fallbackReasonCode": "evidence_rejected",
+      "differsFromRules": [],
+      "planOk": true,
+      "rulesPlanOk": true,
+      "planHardFailures": 0
+    },
+    {
+      "taskId": "27",
+      "run": 1,
+      "input": "只玩 2 天，但大洋路一定要排进墨尔本市区行程。",
+      "productionTier": "rules",
+      "call": {
+        "ok": true,
+        "httpStatus": null,
+        "error": "no_call",
+        "wallMs": 0,
+        "promptTokens": null,
+        "outputTokens": null,
+        "rawContentChars": 2056
+      },
+      "firstFailure": {
+        "stage": "evidence",
+        "reason": "evidence.missing_required_coordinate",
+        "path": "/pace",
+        "message": "抽取值 /pace#scalar 缺少原文 evidence。"
+      },
+      "acceptedMode": "rules",
+      "fallbackReasonCode": "evidence_rejected",
+      "differsFromRules": [],
+      "planOk": false,
+      "rulesPlanOk": false,
+      "planHardFailures": null
+    },
+    {
+      "taskId": "28",
+      "run": 1,
+      "input": "玩 1 天，Federation Square 必须去，但也必须避开 Federation Square。",
+      "productionTier": "model",
+      "call": {
+        "ok": true,
+        "httpStatus": null,
+        "error": "no_call",
+        "wallMs": 0,
+        "promptTokens": null,
+        "outputTokens": null,
+        "rawContentChars": 1969
+      },
+      "firstFailure": {
+        "stage": "evidence",
+        "reason": "evidence.quote_not_in_source",
+        "path": "/evidence",
+        "message": "Evidence /destination/supportedCity#scalar 不是原文中的有效片段。"
+      },
+      "acceptedMode": "rules",
+      "fallbackReasonCode": "evidence_rejected",
+      "differsFromRules": [],
+      "planOk": false,
+      "rulesPlanOk": false,
+      "planHardFailures": null
+    }
+  ]
+}

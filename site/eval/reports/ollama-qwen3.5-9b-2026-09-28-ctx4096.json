@@ -1,0 +1,161 @@
+{
+  "meta": {
+    "model": "qwen3.5:9b",
+    "think": false,
+    "runsPerTask": 1,
+    "promptVersion": "nlu-extraction-system-v2.9",
+    "plannerVersion": "trip-planner-v0.4.3-local",
+    "poiDataVersion": "mel-poi-v0.1-2026-09-14",
+    "gitCommit": "2b71c25",
+    "workingTreeDirty": true,
+    "date": "2026-09-28",
+    "note": "本地模型，不代表线上模型；未花线上额度。",
+    "replayOf": null
+  },
+  "summary": {
+    "runs": 5,
+    "tasks": 5,
+    "llmAccepted": "0/5",
+    "llmAcceptedWhereProductionWouldCallModel": "0/2",
+    "acceptedButDiffersFromRules": 0,
+    "planOkChangedVsRules": 0,
+    "latencyMs": {
+      "p50": 21387,
+      "p90": 36388,
+      "max": 36388
+    }
+  },
+  "rejectionReasons": {
+    "invalid_json": 2,
+    "semantic.unhandled_requirement_missing @ /dailyStartText": 1,
+    "semantic.evidence_not_proven @ /days": 1,
+    "semantic.evidence_not_proven @ /mustIncludeNames": 1
+  },
+  "records": [
+    {
+      "taskId": "01",
+      "run": 1,
+      "input": "我住 CBD，只玩 1 天，11 点开始，想看历史和艺术，别太赶。",
+      "productionTier": "rules",
+      "call": {
+        "ok": false,
+        "httpStatus": 200,
+        "error": "invalid_json",
+        "wallMs": 36388,
+        "promptTokens": 3457,
+        "outputTokens": 639,
+        "rawContentChars": 1818
+      },
+      "firstFailure": null,
+      "acceptedMode": "rules",
+      "fallbackReasonCode": "invalid_json",
+      "differsFromRules": [],
+      "planOk": true,
+      "rulesPlanOk": true,
+      "planHardFailures": 0
+    },
+    {
+      "taskId": "05",
+      "run": 1,
+      "input": "从 East Melbourne 出发，下午才开始，玩 1 天，想看花园和历史地点。",
+      "productionTier": "rules",
+      "call": {
+        "ok": true,
+        "httpStatus": 200,
+        "error": "no_call",
+        "wallMs": 21387,
+        "promptTokens": 3452,
+        "outputTokens": 616,
+        "rawContentChars": 1778
+      },
+      "firstFailure": {
+        "stage": "semantic",
+        "reason": "semantic.unhandled_requirement_missing",
+        "path": "/dailyStartText",
+        "message": "模糊出发时间必须保留为 unresolved。"
+      },
+      "acceptedMode": "rules",
+      "fallbackReasonCode": "semantic_rejected",
+      "differsFromRules": [],
+      "planOk": true,
+      "rulesPlanOk": true,
+      "planHardFailures": 0
+    },
+    {
+      "taskId": "22",
+      "run": 1,
+      "input": "现在预算降到 A$150、室内优先，玩 2 天；住宿预计每晚 A$100–150、住 1 晚，餐饮每人每天 A$30–50，请重新估算。",
+      "productionTier": "model",
+      "call": {
+        "ok": false,
+        "httpStatus": 200,
+        "error": "invalid_json",
+        "wallMs": 22650,
+        "promptTokens": 3484,
+        "outputTokens": 612,
+        "rawContentChars": 1680
+      },
+      "firstFailure": null,
+      "acceptedMode": "rules",
+      "fallbackReasonCode": "invalid_json",
+      "differsFromRules": [],
+      "planOk": true,
+      "rulesPlanOk": true,
+      "planHardFailures": 0
+    },
+    {
+      "taskId": "27",
+      "run": 1,
+      "input": "只玩 2 天，但大洋路一定要排进墨尔本市区行程。",
+      "productionTier": "rules",
+      "call": {
+        "ok": true,
+        "httpStatus": 200,
+        "error": "no_call",
+        "wallMs": 17833,
+        "promptTokens": 3449,
+        "outputTokens": 482,
+        "rawContentChars": 1354
+      },
+      "firstFailure": {
+        "stage": "semantic",
+        "reason": "semantic.evidence_not_proven",
+        "path": "/days",
+        "message": "天数 evidence 与抽取值不一致。"
+      },
+      "acceptedMode": "rules",
+      "fallbackReasonCode": "semantic_rejected",
+      "differsFromRules": [],
+      "planOk": false,
+      "rulesPlanOk": false,
+      "planHardFailures": null
+    },
+    {
+      "taskId": "28",
+      "run": 1,
+      "input": "玩 1 天，Federation Square 必须去，但也必须避开 Federation Square。",
+      "productionTier": "model",
+      "call": {
+        "ok": true,
+        "httpStatus": 200,
+        "error": "no_call",
+        "wallMs": 19120,
+        "promptTokens": 3450,
+        "outputTokens": 538,
+        "rawContentChars": 1535
+      },
+      "firstFailure": {
+        "stage": "semantic",
+        "reason": "semantic.evidence_not_proven",
+        "path": "/mustIncludeNames",
+        "message": "/mustIncludeNames evidence 未把地点与明确意图绑定。"
+      },
+      "acceptedMode": "rules",
+      "fallbackReasonCode": "semantic_rejected",
+      "differsFromRules": [],
+      "planOk": false,
+      "rulesPlanOk": false,
+      "planHardFailures": null
+    }
+  ]
+}

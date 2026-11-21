@@ -1,0 +1,3186 @@
+{
+  "schemaVersion": "poi-import-v1",
+  "dataVersion": "mel-poi-v0.1-2026-09-14",
+  "pois": [
+    {
+      "poi_id": "mel-cbd-federation-square",
+      "name": {
+        "official": "Federation Square",
+        "zh": "联邦广场",
+        "aliases": [
+          "Fed Square",
+          "Federation Square"
+        ]
+      },
+      "category": {
+        "primary": "city_landmark",
+        "secondary": [
+          "Leisure/Recreation",
+          "Informal Outdoor Facility (Park/Garden/Reserve)"
+        ]
+      },
+      "location": {
+        "address": null,
+        "suburb": null,
+        "city": "Melbourne",
+        "state": "VIC",
+        "country": "AU",
+        "area": "CBD 东南",
+        "latitude": -37.8178516571684,
+        "longitude": 144.968963600783
+      },
+      "facts": {
+        "official_url": null,
+        "opening_hours_text": null,
+        "admission": {
+          "price_type": "unknown",
+          "currency": null,
+          "adult": null,
+          "child": null,
+          "concession": null,
+          "text": null
+        },
+        "booking_required": null,
+        "accessibility_features": [],
+        "temporary_closure": null
+      },
+      "fact_assertions": [],
+      "inferences": {
+        "recommended_visit_minutes": 45,
+        "indoor_outdoor": "outdoor",
+        "tags": [
+          "历史",
+          "城市地标",
+          "建筑"
+        ],
+        "rainy_day_suitability": "unknown",
+        "generation": {
+          "model": null,
+          "prompt_version": null,
+          "generated_at": null,
+          "evidence_fields": [],
+          "confidence": "not_generated",
+          "review_status": "not_generated"
+        }
+      },
+      "media": [],
+      "provenance": [
+        {
+          "source_name": "City of Melbourne Open Data",
+          "source_record_id": "Federation Square|-37.8178516571684,144.968963600783",
+          "source_url": "https://data.melbourne.vic.gov.au/explore/dataset/landmarks-and-places-of-interest-including-schools-theatres-health-services-spor/information/",
+          "license": "CC BY 4.0",
+          "retrieved_at": "2026-09-14T22:32:43+10:00",
+          "payload_hash": "c79c6816a5155278cc99bc67898ada00a3fe1e1f4b77fd48d582deac85cf0aa0"
+        }
+      ],
+      "verification": {
+        "status": "verified_core",
+        "verified_at": null,
+        "verified_by": "poi-import-v1",
+        "valid_until": null,
+        "notes": "Name and coordinates matched the selected raw CSV row; dynamic facts remain unknown."
+      }
+    },
+    {
+      "poi_id": "mel-cbd-acmi",
+      "name": {
+        "official": "Australian Centre For The Moving Image (ACMI)",
+        "zh": "澳大利亚影像中心",
+        "aliases": [
+          "ACMI",
+          "Australian Centre For The Moving Image (ACMI)",
+          "澳大利亚动态影像中心"
+        ]
+      },
+      "category": {
+        "primary": "art_culture",
+        "secondary": [
+          "Place Of Assembly",
+          "Art Gallery/Museum"
+        ]
+      },
+      "location": {
+        "address": null,
+        "suburb": null,
+        "city": "Melbourne",
+        "state": "VIC",
+        "country": "AU",
+        "area": "Federation Square",
+        "latitude": -37.8176107327202,
+        "longitude": 144.969070431323
+      },
+      "facts": {
+        "official_url": null,
+        "opening_hours_text": null,
+        "admission": {
+          "price_type": "unknown",
+          "currency": null,
+          "adult": null,
+          "child": null,
+          "concession": null,
+          "text": null
+        },
+        "booking_required": null,
+        "accessibility_features": [],
+        "temporary_closure": null
+      },
+      "fact_assertions": [],
+      "inferences": {
+        "recommended_visit_minutes": 120,
+        "indoor_outdoor": "indoor",
+        "tags": [
+          "亲子",
+          "影像",
+          "艺术"
+        ],
+        "rainy_day_suitability": "unknown",
+        "generation": {
+          "model": null,
+          "prompt_version": null,
+          "generated_at": null,
+          "evidence_fields": [],
+          "confidence": "not_generated",
+          "review_status": "not_generated"
+        }
+      },
+      "media": [],
+      "provenance": [
+        {
+          "source_name": "City of Melbourne Open Data",
+          "source_record_id": "Australian Centre For The Moving Image (ACMI)|-37.8176107327202,144.969070431323",
+          "source_url": "https://data.melbourne.vic.gov.au/explore/dataset/landmarks-and-places-of-interest-including-schools-theatres-health-services-spor/information/",
+          "license": "CC BY 4.0",
+          "retrieved_at": "2026-09-14T22:32:43+10:00",
+          "payload_hash": "c79c6816a5155278cc99bc67898ada00a3fe1e1f4b77fd48d582deac85cf0aa0"
+        }
+      ],
+      "verification": {
+        "status": "verified_core",
+        "verified_at": null,
+        "verified_by": "poi-import-v1",
+        "valid_until": null,
+        "notes": "Name and coordinates matched the selected raw CSV row; dynamic facts remain unknown."
+      }
+    },
+    {
+      "poi_id": "mel-arts-ngv-international",
+      "name": {
+        "official": "NGV International",
+        "zh": "维多利亚国家美术馆国际馆",
+        "aliases": [
+          "NGV",
+          "NGV International",
+          "国家美术馆"
+        ]
+      },
+      "category": {
+        "primary": "art_culture",
+        "secondary": [
+          "Community Use",
+          "Public Buildings"
+        ]
+      },
+      "location": {
+        "address": null,
+        "suburb": null,
+        "city": "Melbourne",
+        "state": "VIC",
+        "country": "AU",
+        "area": "Arts Precinct",
+        "latitude": -37.8230135000869,
+        "longitude": 144.969342535451
+      },
+      "facts": {
+        "official_url": null,
+        "opening_hours_text": null,
+        "admission": {
+          "price_type": "unknown",
+          "currency": null,
+          "adult": null,
+          "child": null,
+          "concession": null,
+          "text": null
+        },
+        "booking_required": null,
+        "accessibility_features": [],
+        "temporary_closure": null
+      },
+      "fact_assertions": [],
+      "inferences": {
+        "recommended_visit_minutes": 150,
+        "indoor_outdoor": "indoor",
+        "tags": [
+          "建筑",
+          "美术馆",
+          "艺术"
+        ],
+        "rainy_day_suitability": "unknown",
+        "generation": {
+          "model": null,
+          "prompt_version": null,
+          "generated_at": null,
+          "evidence_fields": [],
+          "confidence": "not_generated",
+          "review_status": "not_generated"
+        }
+      },
+      "media": [],
+      "provenance": [
+        {
+          "source_name": "City of Melbourne Open Data",
+          "source_record_id": "NGV International|-37.8230135000869,144.969342535451",
+          "source_url": "https://data.melbourne.vic.gov.au/explore/dataset/landmarks-and-places-of-interest-including-schools-theatres-health-services-spor/information/",
+          "license": "CC BY 4.0",
+          "retrieved_at": "2026-09-14T22:32:43+10:00",
+          "payload_hash": "c79c6816a5155278cc99bc67898ada00a3fe1e1f4b77fd48d582deac85cf0aa0"
+        }
+      ],
+      "verification": {
+        "status": "verified_core",
+        "verified_at": null,
+        "verified_by": "poi-import-v1",
+        "valid_until": null,
+        "notes": "Name and coordinates matched the selected raw CSV row; dynamic facts remain unknown."
+      }
+    },
+    {
+      "poi_id": "mel-cbd-state-library",
+      "name": {
+        "official": "State Library Victoria",
+        "zh": "维多利亚州立图书馆",
+        "aliases": [
+          "State Library Victoria",
+          "州立图书馆"
+        ]
+      },
+      "category": {
+        "primary": "history",
+        "secondary": [
+          "Community Use",
+          "Public Buildings"
+        ]
+      },
+      "location": {
+        "address": null,
+        "suburb": null,
+        "city": "Melbourne",
+        "state": "VIC",
+        "country": "AU",
+        "area": "North CBD",
+        "latitude": -37.8099852201226,
+        "longitude": 144.964330322397
+      },
+      "facts": {
+        "official_url": null,
+        "opening_hours_text": null,
+        "admission": {
+          "price_type": "unknown",
+          "currency": null,
+          "adult": null,
+          "child": null,
+          "concession": null,
+          "text": null
+        },
+        "booking_required": null,
+        "accessibility_features": [],
+        "temporary_closure": null
+      },
+      "fact_assertions": [],
+      "inferences": {
+        "recommended_visit_minutes": 90,
+        "indoor_outdoor": "indoor",
+        "tags": [
+          "历史",
+          "建筑",
+          "阅读"
+        ],
+        "rainy_day_suitability": "unknown",
+        "generation": {
+          "model": null,
+          "prompt_version": null,
+          "generated_at": null,
+          "evidence_fields": [],
+          "confidence": "not_generated",
+          "review_status": "not_generated"
+        }
+      },
+      "media": [],
+      "provenance": [
+        {
+          "source_name": "City of Melbourne Open Data",
+          "source_record_id": "State Library Victoria|-37.8099852201226,144.964330322397",
+          "source_url": "https://data.melbourne.vic.gov.au/explore/dataset/landmarks-and-places-of-interest-including-schools-theatres-health-services-spor/information/",
+          "license": "CC BY 4.0",
+          "retrieved_at": "2026-09-14T22:32:43+10:00",
+          "payload_hash": "c79c6816a5155278cc99bc67898ada00a3fe1e1f4b77fd48d582deac85cf0aa0"
+        }
+      ],
+      "verification": {
+        "status": "verified_core",
+        "verified_at": null,
+        "verified_by": "poi-import-v1",
+        "valid_until": null,
+        "notes": "Name and coordinates matched the selected raw CSV row; dynamic facts remain unknown."
+      }
+    },
+    {
+      "poi_id": "mel-cbd-qvm",
+      "name": {
+        "official": "Queen Victoria Market",
+        "zh": "维多利亚女王市场",
+        "aliases": [
+          "QVM",
+          "Queen Victoria Market",
+          "女王市场"
+        ]
+      },
+      "category": {
+        "primary": "market_food",
+        "secondary": [
+          "Retail"
+        ]
+      },
+      "location": {
+        "address": null,
+        "suburb": null,
+        "city": "Melbourne",
+        "state": "VIC",
+        "country": "AU",
+        "area": "North CBD",
+        "latitude": -37.8075002018073,
+        "longitude": 144.957158515056
+      },
+      "facts": {
+        "official_url": null,
+        "opening_hours_text": null,
+        "admission": {
+          "price_type": "unknown",
+          "currency": null,
+          "adult": null,
+          "child": null,
+          "concession": null,
+          "text": null
+        },
+        "booking_required": null,
+        "accessibility_features": [],
+        "temporary_closure": null
+      },
+      "fact_assertions": [],
+      "inferences": {
+        "recommended_visit_minutes": 90,
+        "indoor_outdoor": "mixed",
+        "tags": [
+          "历史",
+          "市场",
+          "美食"
+        ],
+        "rainy_day_suitability": "unknown",
+        "generation": {
+          "model": null,
+          "prompt_version": null,
+          "generated_at": null,
+          "evidence_fields": [],
+          "confidence": "not_generated",
+          "review_status": "not_generated"
+        }
+      },
+      "media": [],
+      "provenance": [
+        {
+          "source_name": "City of Melbourne Open Data",
+          "source_record_id": "Queen Victoria Market|-37.8075002018073,144.957158515056",
+          "source_url": "https://data.melbourne.vic.gov.au/explore/dataset/landmarks-and-places-of-interest-including-schools-theatres-health-services-spor/information/",
+          "license": "CC BY 4.0",
+          "retrieved_at": "2026-09-14T22:32:43+10:00",
+          "payload_hash": "c79c6816a5155278cc99bc67898ada00a3fe1e1f4b77fd48d582deac85cf0aa0"
+        }
+      ],
+      "verification": {
+        "status": "verified_core",
+        "verified_at": null,
+        "verified_by": "poi-import-v1",
+        "valid_until": null,
+        "notes": "Name and coordinates matched the selected raw CSV row; dynamic facts remain unknown."
+      }
+    },
+    {
+      "poi_id": "mel-cbd-immigration-museum",
+      "name": {
+        "official": "Immigration Museum",
+        "zh": "移民博物馆",
+        "aliases": [
+          "Immigration Museum",
+          "移民博物馆"
+        ]
+      },
+      "category": {
+        "primary": "history",
+        "secondary": [
+          "Place Of Assembly",
+          "Art Gallery/Museum"
+        ]
+      },
+      "location": {
+        "address": null,
+        "suburb": null,
+        "city": "Melbourne",
+        "state": "VIC",
+        "country": "AU",
+        "area": "CBD 西南",
+        "latitude": -37.8191798798062,
+        "longitude": 144.960426777129
+      },
+      "facts": {
+        "official_url": null,
+        "opening_hours_text": null,
+        "admission": {
+          "price_type": "unknown",
+          "currency": null,
+          "adult": null,
+          "child": null,
+          "concession": null,
+          "text": null
+        },
+        "booking_required": null,
+        "accessibility_features": [],
+        "temporary_closure": null
+      },
+      "fact_assertions": [],
+      "inferences": {
+        "recommended_visit_minutes": 105,
+        "indoor_outdoor": "indoor",
+        "tags": [
+          "博物馆",
+          "历史",
+          "移民"
+        ],
+        "rainy_day_suitability": "unknown",
+        "generation": {
+          "model": null,
+          "prompt_version": null,
+          "generated_at": null,
+          "evidence_fields": [],
+          "confidence": "not_generated",
+          "review_status": "not_generated"
+        }
+      },
+      "media": [],
+      "provenance": [
+        {
+          "source_name": "City of Melbourne Open Data",
+          "source_record_id": "Immigration Museum|-37.8191798798062,144.960426777129",
+          "source_url": "https://data.melbourne.vic.gov.au/explore/dataset/landmarks-and-places-of-interest-including-schools-theatres-health-services-spor/information/",
+          "license": "CC BY 4.0",
+          "retrieved_at": "2026-09-14T22:32:43+10:00",
+          "payload_hash": "c79c6816a5155278cc99bc67898ada00a3fe1e1f4b77fd48d582deac85cf0aa0"
+        }
+      ],
+      "verification": {
+        "status": "verified_core",
+        "verified_at": null,
+        "verified_by": "poi-import-v1",
+        "valid_until": null,
+        "notes": "Name and coordinates matched the selected raw CSV row; dynamic facts remain unknown."
+      }
+    },
+    {
+      "poi_id": "mel-carlton-melbourne-museum",
+      "name": {
+        "official": "Melbourne Museum",
+        "zh": "墨尔本博物馆",
+        "aliases": [
+          "Melbourne Museum",
+          "墨尔本博物馆"
+        ]
+      },
+      "category": {
+        "primary": "family",
+        "secondary": [
+          "Place Of Assembly",
+          "Art Gallery/Museum"
+        ]
+      },
+      "location": {
+        "address": null,
+        "suburb": null,
+        "city": "Melbourne",
+        "state": "VIC",
+        "country": "AU",
+        "area": "Carlton",
+        "latitude": -37.8035518129299,
+        "longitude": 144.971690718887
+      },
+      "facts": {
+        "official_url": null,
+        "opening_hours_text": null,
+        "admission": {
+          "price_type": "unknown",
+          "currency": null,
+          "adult": null,
+          "child": null,
+          "concession": null,
+          "text": null
+        },
+        "booking_required": null,
+        "accessibility_features": [],
+        "temporary_closure": null
+      },
+      "fact_assertions": [],
+      "inferences": {
+        "recommended_visit_minutes": 150,
+        "indoor_outdoor": "indoor",
+        "tags": [
+          "亲子",
+          "博物馆",
+          "历史"
+        ],
+        "rainy_day_suitability": "unknown",
+        "generation": {
+          "model": null,
+          "prompt_version": null,
+          "generated_at": null,
+          "evidence_fields": [],
+          "confidence": "not_generated",
+          "review_status": "not_generated"
+        }
+      },
+      "media": [],
+      "provenance": [
+        {
+          "source_name": "City of Melbourne Open Data",
+          "source_record_id": "Melbourne Museum|-37.8035518129299,144.971690718887",
+          "source_url": "https://data.melbourne.vic.gov.au/explore/dataset/landmarks-and-places-of-interest-including-schools-theatres-health-services-spor/information/",
+          "license": "CC BY 4.0",
+          "retrieved_at": "2026-09-14T22:32:43+10:00",
+          "payload_hash": "c79c6816a5155278cc99bc67898ada00a3fe1e1f4b77fd48d582deac85cf0aa0"
+        }
+      ],
+      "verification": {
+        "status": "verified_core",
+        "verified_at": null,
+        "verified_by": "poi-import-v1",
+        "valid_until": null,
+        "notes": "Name and coordinates matched the selected raw CSV row; dynamic facts remain unknown."
+      }
+    },
+    {
+      "poi_id": "mel-carlton-royal-exhibition",
+      "name": {
+        "official": "Royal Exhibition Building",
+        "zh": "皇家展览馆",
+        "aliases": [
+          "Royal Exhibition Building",
+          "皇家展览馆"
+        ]
+      },
+      "category": {
+        "primary": "history",
+        "secondary": [
+          "Place Of Assembly",
+          "Art Gallery/Museum"
+        ]
+      },
+      "location": {
+        "address": null,
+        "suburb": null,
+        "city": "Melbourne",
+        "state": "VIC",
+        "country": "AU",
+        "area": "Carlton",
+        "latitude": -37.80460262432,
+        "longitude": 144.971521914952
+      },
+      "facts": {
+        "official_url": null,
+        "opening_hours_text": null,
+        "admission": {
+          "price_type": "unknown",
+          "currency": null,
+          "adult": null,
+          "child": null,
+          "concession": null,
+          "text": null
+        },
+        "booking_required": null,
+        "accessibility_features": [],
+        "temporary_closure": null
+      },
+      "fact_assertions": [],
+      "inferences": {
+        "recommended_visit_minutes": 60,
+        "indoor_outdoor": "conditional",
+        "tags": [
+          "世界遗产",
+          "历史",
+          "建筑"
+        ],
+        "rainy_day_suitability": "unknown",
+        "generation": {
+          "model": null,
+          "prompt_version": null,
+          "generated_at": null,
+          "evidence_fields": [],
+          "confidence": "not_generated",
+          "review_status": "not_generated"
+        }
+      },
+      "media": [],
+      "provenance": [
+        {
+          "source_name": "City of Melbourne Open Data",
+          "source_record_id": "Royal Exhibition Building|-37.80460262432,144.971521914952",
+          "source_url": "https://data.melbourne.vic.gov.au/explore/dataset/landmarks-and-places-of-interest-including-schools-theatres-health-services-spor/information/",
+          "license": "CC BY 4.0",
+          "retrieved_at": "2026-09-14T22:32:43+10:00",
+          "payload_hash": "c79c6816a5155278cc99bc67898ada00a3fe1e1f4b77fd48d582deac85cf0aa0"
+        }
+      ],
+      "verification": {
+        "status": "verified_core",
+        "verified_at": null,
+        "verified_by": "poi-import-v1",
+        "valid_until": null,
+        "notes": "Name and coordinates matched the selected raw CSV row; dynamic facts remain unknown."
+      }
+    },
+    {
+      "poi_id": "mel-east-fitzroy-gardens",
+      "name": {
+        "official": "Fitzroy Gardens",
+        "zh": "菲茨罗伊花园",
+        "aliases": [
+          "Fitzroy Gardens",
+          "菲茨罗伊花园"
+        ]
+      },
+      "category": {
+        "primary": "nature",
+        "secondary": [
+          "Leisure/Recreation",
+          "Informal Outdoor Facility (Park/Garden/Reserve)"
+        ]
+      },
+      "location": {
+        "address": null,
+        "suburb": null,
+        "city": "Melbourne",
+        "state": "VIC",
+        "country": "AU",
+        "area": "East Melbourne",
+        "latitude": -37.8129616331579,
+        "longitude": 144.980455714669
+      },
+      "facts": {
+        "official_url": null,
+        "opening_hours_text": null,
+        "admission": {
+          "price_type": "unknown",
+          "currency": null,
+          "adult": null,
+          "child": null,
+          "concession": null,
+          "text": null
+        },
+        "booking_required": null,
+        "accessibility_features": [],
+        "temporary_closure": null
+      },
+      "fact_assertions": [],
+      "inferences": {
+        "recommended_visit_minutes": 60,
+        "indoor_outdoor": "outdoor",
+        "tags": [
+          "散步",
+          "自然",
+          "花园"
+        ],
+        "rainy_day_suitability": "unknown",
+        "generation": {
+          "model": null,
+          "prompt_version": null,
+          "generated_at": null,
+          "evidence_fields": [],
+          "confidence": "not_generated",
+          "review_status": "not_generated"
+        }
+      },
+      "media": [],
+      "provenance": [
+        {
+          "source_name": "City of Melbourne Open Data",
+          "source_record_id": "Fitzroy Gardens|-37.8129616331579,144.980455714669",
+          "source_url": "https://data.melbourne.vic.gov.au/explore/dataset/landmarks-and-places-of-interest-including-schools-theatres-health-services-spor/information/",
+          "license": "CC BY 4.0",
+          "retrieved_at": "2026-09-14T22:32:43+10:00",
+          "payload_hash": "c79c6816a5155278cc99bc67898ada00a3fe1e1f4b77fd48d582deac85cf0aa0"
+        }
+      ],
+      "verification": {
+        "status": "verified_core",
+        "verified_at": null,
+        "verified_by": "poi-import-v1",
+        "valid_until": null,
+        "notes": "Name and coordinates matched the selected raw CSV row; dynamic facts remain unknown."
+      }
+    },
+    {
+      "poi_id": "mel-south-royal-botanic-gardens",
+      "name": {
+        "official": "Royal Botanic Gardens",
+        "zh": "皇家植物园（墨尔本园区）",
+        "aliases": [
+          "Royal Botanic Gardens",
+          "Royal Botanic Gardens Melbourne",
+          "墨尔本皇家植物园",
+          "皇家植物园"
+        ]
+      },
+      "category": {
+        "primary": "nature",
+        "secondary": [
+          "Leisure/Recreation",
+          "Informal Outdoor Facility (Park/Garden/Reserve)"
+        ]
+      },
+      "location": {
+        "address": null,
+        "suburb": null,
+        "city": "Melbourne",
+        "state": "VIC",
+        "country": "AU",
+        "area": "South of CBD",
+        "latitude": -37.8306631583233,
+        "longitude": 144.980850432751
+      },
+      "facts": {
+        "official_url": null,
+        "opening_hours_text": null,
+        "admission": {
+          "price_type": "unknown",
+          "currency": null,
+          "adult": null,
+          "child": null,
+          "concession": null,
+          "text": null
+        },
+        "booking_required": null,
+        "accessibility_features": [],
+        "temporary_closure": null
+      },
+      "fact_assertions": [],
+      "inferences": {
+        "recommended_visit_minutes": 120,
+        "indoor_outdoor": "outdoor",
+        "tags": [
+          "散步",
+          "自然",
+          "花园"
+        ],
+        "rainy_day_suitability": "unknown",
+        "generation": {
+          "model": null,
+          "prompt_version": null,
+          "generated_at": null,
+          "evidence_fields": [],
+          "confidence": "not_generated",
+          "review_status": "not_generated"
+        }
+      },
+      "media": [],
+      "provenance": [
+        {
+          "source_name": "City of Melbourne Open Data",
+          "source_record_id": "Royal Botanic Gardens|-37.8306631583233,144.980850432751",
+          "source_url": "https://data.melbourne.vic.gov.au/explore/dataset/landmarks-and-places-of-interest-including-schools-theatres-health-services-spor/information/",
+          "license": "CC BY 4.0",
+          "retrieved_at": "2026-09-14T22:32:43+10:00",
+          "payload_hash": "c79c6816a5155278cc99bc67898ada00a3fe1e1f4b77fd48d582deac85cf0aa0"
+        }
+      ],
+      "verification": {
+        "status": "verified_core",
+        "verified_at": null,
+        "verified_by": "poi-import-v1",
+        "valid_until": null,
+        "notes": "Name and coordinates matched the selected raw CSV row; dynamic facts remain unknown."
+      }
+    },
+    {
+      "poi_id": "mel-south-shrine",
+      "name": {
+        "official": "Shrine of Remembrance",
+        "zh": "纪念神殿",
+        "aliases": [
+          "Shrine of Remembrance",
+          "纪念神殿"
+        ]
+      },
+      "category": {
+        "primary": "history",
+        "secondary": [
+          "Community Use",
+          "Public Buildings"
+        ]
+      },
+      "location": {
+        "address": null,
+        "suburb": null,
+        "city": "Melbourne",
+        "state": "VIC",
+        "country": "AU",
+        "area": "Kings Domain",
+        "latitude": -37.8302080020387,
+        "longitude": 144.973441913623
+      },
+      "facts": {
+        "official_url": null,
+        "opening_hours_text": null,
+        "admission": {
+          "price_type": "unknown",
+          "currency": null,
+          "adult": null,
+          "child": null,
+          "concession": null,
+          "text": null
+        },
+        "booking_required": null,
+        "accessibility_features": [],
+        "temporary_closure": null
+      },
+      "fact_assertions": [],
+      "inferences": {
+        "recommended_visit_minutes": 90,
+        "indoor_outdoor": "mixed",
+        "tags": [
+          "历史",
+          "建筑",
+          "纪念"
+        ],
+        "rainy_day_suitability": "unknown",
+        "generation": {
+          "model": null,
+          "prompt_version": null,
+          "generated_at": null,
+          "evidence_fields": [],
+          "confidence": "not_generated",
+          "review_status": "not_generated"
+        }
+      },
+      "media": [],
+      "provenance": [
+        {
+          "source_name": "City of Melbourne Open Data",
+          "source_record_id": "Shrine of Remembrance|-37.8302080020387,144.973441913623",
+          "source_url": "https://data.melbourne.vic.gov.au/explore/dataset/landmarks-and-places-of-interest-including-schools-theatres-health-services-spor/information/",
+          "license": "CC BY 4.0",
+          "retrieved_at": "2026-09-14T22:32:43+10:00",
+          "payload_hash": "c79c6816a5155278cc99bc67898ada00a3fe1e1f4b77fd48d582deac85cf0aa0"
+        }
+      ],
+      "verification": {
+        "status": "verified_core",
+        "verified_at": null,
+        "verified_by": "poi-import-v1",
+        "valid_until": null,
+        "notes": "Name and coordinates matched the selected raw CSV row; dynamic facts remain unknown."
+      }
+    },
+    {
+      "poi_id": "mel-cbd-old-melbourne-gaol",
+      "name": {
+        "official": "Old Melbourne Gaol Crime & Justice Experience",
+        "zh": "旧墨尔本监狱",
+        "aliases": [
+          "Old Melbourne Gaol",
+          "Old Melbourne Gaol Crime & Justice Experience",
+          "旧墨尔本监狱"
+        ]
+      },
+      "category": {
+        "primary": "history",
+        "secondary": [
+          "Place Of Assembly",
+          "Art Gallery/Museum"
+        ]
+      },
+      "location": {
+        "address": null,
+        "suburb": null,
+        "city": "Melbourne",
+        "state": "VIC",
+        "country": "AU",
+        "area": "North CBD",
+        "latitude": -37.8077644149636,
+        "longitude": 144.965463853978
+      },
+      "facts": {
+        "official_url": null,
+        "opening_hours_text": null,
+        "admission": {
+          "price_type": "unknown",
+          "currency": null,
+          "adult": null,
+          "child": null,
+          "concession": null,
+          "text": null
+        },
+        "booking_required": null,
+        "accessibility_features": [],
+        "temporary_closure": null
+      },
+      "fact_assertions": [],
+      "inferences": {
+        "recommended_visit_minutes": 90,
+        "indoor_outdoor": "indoor",
+        "tags": [
+          "博物馆",
+          "历史",
+          "建筑"
+        ],
+        "rainy_day_suitability": "unknown",
+        "generation": {
+          "model": null,
+          "prompt_version": null,
+          "generated_at": null,
+          "evidence_fields": [],
+          "confidence": "not_generated",
+          "review_status": "not_generated"
+        }
+      },
+      "media": [],
+      "provenance": [
+        {
+          "source_name": "City of Melbourne Open Data",
+          "source_record_id": "Old Melbourne Gaol Crime & Justice Experience|-37.8077644149636,144.965463853978",
+          "source_url": "https://data.melbourne.vic.gov.au/explore/dataset/landmarks-and-places-of-interest-including-schools-theatres-health-services-spor/information/",
+          "license": "CC BY 4.0",
+          "retrieved_at": "2026-09-14T22:32:43+10:00",
+          "payload_hash": "c79c6816a5155278cc99bc67898ada00a3fe1e1f4b77fd48d582deac85cf0aa0"
+        }
+      ],
+      "verification": {
+        "status": "verified_core",
+        "verified_at": null,
+        "verified_by": "poi-import-v1",
+        "valid_until": null,
+        "notes": "Name and coordinates matched the selected raw CSV row; dynamic facts remain unknown."
+      }
+    },
+    {
+      "poi_id": "mel-the-ian-potter-centre-ngv-australia-c0222b6f",
+      "name": {
+        "official": "The Ian Potter Centre: NGV Australia",
+        "zh": "伊恩·波特中心：澳大利亚馆",
+        "aliases": [
+          "The Ian Potter Centre: NGV Australia"
+        ]
+      },
+      "category": {
+        "primary": "art_culture",
+        "secondary": [
+          "Place Of Assembly",
+          "Art Gallery/Museum"
+        ]
+      },
+      "location": {
+        "address": null,
+        "suburb": null,
+        "city": "Melbourne",
+        "state": "VIC",
+        "country": "AU",
+        "area": "Federation Square",
+        "latitude": -37.8174831423197,
+        "longitude": 144.969899048343
+      },
+      "facts": {
+        "official_url": "https://www.ngv.vic.gov.au/plan-your-visit/",
+        "opening_hours_text": null,
+        "admission": {
+          "price_type": "unknown",
+          "currency": null,
+          "adult": null,
+          "child": null,
+          "concession": null,
+          "text": null
+        },
+        "booking_required": null,
+        "accessibility_features": [],
+        "temporary_closure": null
+      },
+      "fact_assertions": [],
+      "inferences": {
+        "recommended_visit_minutes": 90,
+        "indoor_outdoor": "indoor",
+        "tags": [
+          "建筑",
+          "澳大利亚艺术",
+          "艺术"
+        ],
+        "rainy_day_suitability": "unknown",
+        "generation": {
+          "model": null,
+          "prompt_version": null,
+          "generated_at": null,
+          "evidence_fields": [],
+          "confidence": "not_generated",
+          "review_status": "not_generated"
+        }
+      },
+      "media": [],
+      "provenance": [
+        {
+          "source_name": "City of Melbourne Open Data",
+          "source_record_id": "The Ian Potter Centre: NGV Australia|-37.8174831423197,144.969899048343",
+          "source_url": "https://data.melbourne.vic.gov.au/explore/dataset/landmarks-and-places-of-interest-including-schools-theatres-health-services-spor/information/",
+          "license": "CC BY 4.0",
+          "retrieved_at": "2026-09-14T22:32:43+10:00",
+          "payload_hash": "c79c6816a5155278cc99bc67898ada00a3fe1e1f4b77fd48d582deac85cf0aa0"
+        }
+      ],
+      "verification": {
+        "status": "verified_core",
+        "verified_at": null,
+        "verified_by": "poi-import-v1",
+        "valid_until": null,
+        "notes": "Name and coordinates matched the selected raw CSV row; dynamic facts remain unknown."
+      }
+    },
+    {
+      "poi_id": "mel-st-pauls-cathedral-7b241688",
+      "name": {
+        "official": "St Pauls Cathedral",
+        "zh": "圣保罗大教堂",
+        "aliases": [
+          "St Pauls Cathedral",
+          "St Paul’s Cathedral Melbourne"
+        ]
+      },
+      "category": {
+        "primary": "history",
+        "secondary": [
+          "Place of Worship",
+          "Church"
+        ]
+      },
+      "location": {
+        "address": null,
+        "suburb": null,
+        "city": "Melbourne",
+        "state": "VIC",
+        "country": "AU",
+        "area": "CBD 东南",
+        "latitude": -37.8169549012399,
+        "longitude": 144.967681647402
+      },
+      "facts": {
+        "official_url": "https://cathedral.org.au/explore/visitor-information/",
+        "opening_hours_text": null,
+        "admission": {
+          "price_type": "unknown",
+          "currency": null,
+          "adult": null,
+          "child": null,
+          "concession": null,
+          "text": null
+        },
+        "booking_required": null,
+        "accessibility_features": [],
+        "temporary_closure": null
+      },
+      "fact_assertions": [],
+      "inferences": {
+        "recommended_visit_minutes": 45,
+        "indoor_outdoor": "indoor",
+        "tags": [
+          "历史",
+          "宗教",
+          "建筑"
+        ],
+        "rainy_day_suitability": "unknown",
+        "generation": {
+          "model": null,
+          "prompt_version": null,
+          "generated_at": null,
+          "evidence_fields": [],
+          "confidence": "not_generated",
+          "review_status": "not_generated"
+        }
+      },
+      "media": [],
+      "provenance": [
+        {
+          "source_name": "City of Melbourne Open Data",
+          "source_record_id": "St Pauls Cathedral|-37.8169549012399,144.967681647402",
+          "source_url": "https://data.melbourne.vic.gov.au/explore/dataset/landmarks-and-places-of-interest-including-schools-theatres-health-services-spor/information/",
+          "license": "CC BY 4.0",
+          "retrieved_at": "2026-09-14T22:32:43+10:00",
+          "payload_hash": "c79c6816a5155278cc99bc67898ada00a3fe1e1f4b77fd48d582deac85cf0aa0"
+        }
+      ],
+      "verification": {
+        "status": "verified_core",
+        "verified_at": null,
+        "verified_by": "poi-import-v1",
+        "valid_until": null,
+        "notes": "Name and coordinates matched the selected raw CSV row; dynamic facts remain unknown."
+      }
+    },
+    {
+      "poi_id": "mel-melbourne-town-hall-286126cd",
+      "name": {
+        "official": "Melbourne Town Hall",
+        "zh": "墨尔本市政厅",
+        "aliases": [
+          "Melbourne Town Hall"
+        ]
+      },
+      "category": {
+        "primary": "history",
+        "secondary": [
+          "Community Use",
+          "Public Buildings"
+        ]
+      },
+      "location": {
+        "address": null,
+        "suburb": null,
+        "city": "Melbourne",
+        "state": "VIC",
+        "country": "AU",
+        "area": "CBD 东南",
+        "latitude": -37.8150754791411,
+        "longitude": 144.966542722283
+      },
+      "facts": {
+        "official_url": null,
+        "opening_hours_text": null,
+        "admission": {
+          "price_type": "unknown",
+          "currency": null,
+          "adult": null,
+          "child": null,
+          "concession": null,
+          "text": null
+        },
+        "booking_required": null,
+        "accessibility_features": [],
+        "temporary_closure": null
+      },
+      "fact_assertions": [],
+      "inferences": {
+        "recommended_visit_minutes": 45,
+        "indoor_outdoor": "indoor",
+        "tags": [
+          "历史",
+          "城市文化",
+          "建筑"
+        ],
+        "rainy_day_suitability": "unknown",
+        "generation": {
+          "model": null,
+          "prompt_version": null,
+          "generated_at": null,
+          "evidence_fields": [],
+          "confidence": "not_generated",
+          "review_status": "not_generated"
+        }
+      },
+      "media": [],
+      "provenance": [
+        {
+          "source_name": "City of Melbourne Open Data",
+          "source_record_id": "Melbourne Town Hall|-37.8150754791411,144.966542722283",
+          "source_url": "https://data.melbourne.vic.gov.au/explore/dataset/landmarks-and-places-of-interest-including-schools-theatres-health-services-spor/information/",
+          "license": "CC BY 4.0",
+          "retrieved_at": "2026-09-14T22:32:43+10:00",
+          "payload_hash": "c79c6816a5155278cc99bc67898ada00a3fe1e1f4b77fd48d582deac85cf0aa0"
+        }
+      ],
+      "verification": {
+        "status": "verified_core",
+        "verified_at": null,
+        "verified_by": "poi-import-v1",
+        "valid_until": null,
+        "notes": "Name and coordinates matched the selected raw CSV row; dynamic facts remain unknown."
+      }
+    },
+    {
+      "poi_id": "mel-flinders-street-railway-station-f898426a",
+      "name": {
+        "official": "Flinders Street Railway Station",
+        "zh": "弗林德斯街车站",
+        "aliases": [
+          "Flinders Street Railway Station"
+        ]
+      },
+      "category": {
+        "primary": "city_landmark",
+        "secondary": [
+          "Transport",
+          "Railway Station"
+        ]
+      },
+      "location": {
+        "address": null,
+        "suburb": null,
+        "city": "Melbourne",
+        "state": "VIC",
+        "country": "AU",
+        "area": "CBD 东南",
+        "latitude": -37.8179063007545,
+        "longitude": 144.967064817875
+      },
+      "facts": {
+        "official_url": null,
+        "opening_hours_text": null,
+        "admission": {
+          "price_type": "unknown",
+          "currency": null,
+          "adult": null,
+          "child": null,
+          "concession": null,
+          "text": null
+        },
+        "booking_required": null,
+        "accessibility_features": [],
+        "temporary_closure": null
+      },
+      "fact_assertions": [],
+      "inferences": {
+        "recommended_visit_minutes": 30,
+        "indoor_outdoor": "mixed",
+        "tags": [
+          "交通",
+          "城市地标",
+          "建筑"
+        ],
+        "rainy_day_suitability": "unknown",
+        "generation": {
+          "model": null,
+          "prompt_version": null,
+          "generated_at": null,
+          "evidence_fields": [],
+          "confidence": "not_generated",
+          "review_status": "not_generated"
+        }
+      },
+      "media": [],
+      "provenance": [
+        {
+          "source_name": "City of Melbourne Open Data",
+          "source_record_id": "Flinders Street Railway Station|-37.8179063007545,144.967064817875",
+          "source_url": "https://data.melbourne.vic.gov.au/explore/dataset/landmarks-and-places-of-interest-including-schools-theatres-health-services-spor/information/",
+          "license": "CC BY 4.0",
+          "retrieved_at": "2026-09-14T22:32:43+10:00",
+          "payload_hash": "c79c6816a5155278cc99bc67898ada00a3fe1e1f4b77fd48d582deac85cf0aa0"
+        }
+      ],
+      "verification": {
+        "status": "verified_core",
+        "verified_at": null,
+        "verified_by": "poi-import-v1",
+        "valid_until": null,
+        "notes": "Name and coordinates matched the selected raw CSV row; dynamic facts remain unknown."
+      }
+    },
+    {
+      "poi_id": "mel-birrarung-marr-56a2e583",
+      "name": {
+        "official": "Birrarung Marr",
+        "zh": "比拉隆·马尔公园",
+        "aliases": [
+          "Birrarung Marr"
+        ]
+      },
+      "category": {
+        "primary": "nature",
+        "secondary": [
+          "Leisure/Recreation",
+          "Informal Outdoor Facility (Park/Garden/Reserve)"
+        ]
+      },
+      "location": {
+        "address": null,
+        "suburb": null,
+        "city": "Melbourne",
+        "state": "VIC",
+        "country": "AU",
+        "area": "雅拉河畔",
+        "latitude": -37.81806108403,
+        "longitude": 144.97314667014
+      },
+      "facts": {
+        "official_url": null,
+        "opening_hours_text": null,
+        "admission": {
+          "price_type": "unknown",
+          "currency": null,
+          "adult": null,
+          "child": null,
+          "concession": null,
+          "text": null
+        },
+        "booking_required": null,
+        "accessibility_features": [],
+        "temporary_closure": null
+      },
+      "fact_assertions": [],
+      "inferences": {
+        "recommended_visit_minutes": 60,
+        "indoor_outdoor": "outdoor",
+        "tags": [
+          "公园",
+          "散步",
+          "河畔"
+        ],
+        "rainy_day_suitability": "unknown",
+        "generation": {
+          "model": null,
+          "prompt_version": null,
+          "generated_at": null,
+          "evidence_fields": [],
+          "confidence": "not_generated",
+          "review_status": "not_generated"
+        }
+      },
+      "media": [],
+      "provenance": [
+        {
+          "source_name": "City of Melbourne Open Data",
+          "source_record_id": "Birrarung Marr|-37.81806108403,144.97314667014",
+          "source_url": "https://data.melbourne.vic.gov.au/explore/dataset/landmarks-and-places-of-interest-including-schools-theatres-health-services-spor/information/",
+          "license": "CC BY 4.0",
+          "retrieved_at": "2026-09-14T22:32:43+10:00",
+          "payload_hash": "c79c6816a5155278cc99bc67898ada00a3fe1e1f4b77fd48d582deac85cf0aa0"
+        }
+      ],
+      "verification": {
+        "status": "verified_core",
+        "verified_at": null,
+        "verified_by": "poi-import-v1",
+        "valid_until": null,
+        "notes": "Name and coordinates matched the selected raw CSV row; dynamic facts remain unknown."
+      }
+    },
+    {
+      "poi_id": "mel-forum-theatre-a24dc137",
+      "name": {
+        "official": "Forum Theatre",
+        "zh": "福伦剧院",
+        "aliases": [
+          "Forum Melbourne",
+          "Forum Theatre"
+        ]
+      },
+      "category": {
+        "primary": "art_culture",
+        "secondary": [
+          "Place Of Assembly",
+          "Theatre Live"
+        ]
+      },
+      "location": {
+        "address": null,
+        "suburb": null,
+        "city": "Melbourne",
+        "state": "VIC",
+        "country": "AU",
+        "area": "CBD 东南",
+        "latitude": -37.816485409696,
+        "longitude": 144.969386556998
+      },
+      "facts": {
+        "official_url": "https://marrinergroup.com.au/forum-melbourne-events",
+        "opening_hours_text": null,
+        "admission": {
+          "price_type": "unknown",
+          "currency": null,
+          "adult": null,
+          "child": null,
+          "concession": null,
+          "text": null
+        },
+        "booking_required": null,
+        "accessibility_features": [],
+        "temporary_closure": null
+      },
+      "fact_assertions": [],
+      "inferences": {
+        "recommended_visit_minutes": 90,
+        "indoor_outdoor": "indoor",
+        "tags": [
+          "夜间活动",
+          "建筑",
+          "演出"
+        ],
+        "rainy_day_suitability": "unknown",
+        "generation": {
+          "model": null,
+          "prompt_version": null,
+          "generated_at": null,
+          "evidence_fields": [],
+          "confidence": "not_generated",
+          "review_status": "not_generated"
+        }
+      },
+      "media": [],
+      "provenance": [
+        {
+          "source_name": "City of Melbourne Open Data",
+          "source_record_id": "Forum Theatre|-37.816485409696,144.969386556998",
+          "source_url": "https://data.melbourne.vic.gov.au/explore/dataset/landmarks-and-places-of-interest-including-schools-theatres-health-services-spor/information/",
+          "license": "CC BY 4.0",
+          "retrieved_at": "2026-09-14T22:32:43+10:00",
+          "payload_hash": "c79c6816a5155278cc99bc67898ada00a3fe1e1f4b77fd48d582deac85cf0aa0"
+        }
+      ],
+      "verification": {
+        "status": "verified_core",
+        "verified_at": null,
+        "verified_by": "poi-import-v1",
+        "valid_until": null,
+        "notes": "Name and coordinates matched the selected raw CSV row; dynamic facts remain unknown."
+      }
+    },
+    {
+      "poi_id": "mel-flagstaff-gardens-d5d3be7b",
+      "name": {
+        "official": "Flagstaff Gardens",
+        "zh": "旗杆花园",
+        "aliases": [
+          "Flagstaff Gardens"
+        ]
+      },
+      "category": {
+        "primary": "nature",
+        "secondary": [
+          "Leisure/Recreation",
+          "Informal Outdoor Facility (Park/Garden/Reserve)"
+        ]
+      },
+      "location": {
+        "address": null,
+        "suburb": null,
+        "city": "Melbourne",
+        "state": "VIC",
+        "country": "AU",
+        "area": "North CBD",
+        "latitude": -37.8111222889277,
+        "longitude": 144.954696055235
+      },
+      "facts": {
+        "official_url": null,
+        "opening_hours_text": null,
+        "admission": {
+          "price_type": "unknown",
+          "currency": null,
+          "adult": null,
+          "child": null,
+          "concession": null,
+          "text": null
+        },
+        "booking_required": null,
+        "accessibility_features": [],
+        "temporary_closure": null
+      },
+      "fact_assertions": [],
+      "inferences": {
+        "recommended_visit_minutes": 60,
+        "indoor_outdoor": "outdoor",
+        "tags": [
+          "散步",
+          "自然",
+          "花园"
+        ],
+        "rainy_day_suitability": "unknown",
+        "generation": {
+          "model": null,
+          "prompt_version": null,
+          "generated_at": null,
+          "evidence_fields": [],
+          "confidence": "not_generated",
+          "review_status": "not_generated"
+        }
+      },
+      "media": [],
+      "provenance": [
+        {
+          "source_name": "City of Melbourne Open Data",
+          "source_record_id": "Flagstaff Gardens|-37.8111222889277,144.954696055235",
+          "source_url": "https://data.melbourne.vic.gov.au/explore/dataset/landmarks-and-places-of-interest-including-schools-theatres-health-services-spor/information/",
+          "license": "CC BY 4.0",
+          "retrieved_at": "2026-09-14T22:32:43+10:00",
+          "payload_hash": "c79c6816a5155278cc99bc67898ada00a3fe1e1f4b77fd48d582deac85cf0aa0"
+        }
+      ],
+      "verification": {
+        "status": "verified_core",
+        "verified_at": null,
+        "verified_by": "poi-import-v1",
+        "valid_until": null,
+        "notes": "Name and coordinates matched the selected raw CSV row; dynamic facts remain unknown."
+      }
+    },
+    {
+      "poi_id": "mel-the-museum-of-australian-chinese-history-04a0c007",
+      "name": {
+        "official": "The Museum Of Australian Chinese History",
+        "zh": "澳大利亚华人历史博物馆",
+        "aliases": [
+          "Museum of Chinese Australian History",
+          "The Museum Of Australian Chinese History"
+        ]
+      },
+      "category": {
+        "primary": "history",
+        "secondary": [
+          "Place Of Assembly",
+          "Art Gallery/Museum"
+        ]
+      },
+      "location": {
+        "address": null,
+        "suburb": null,
+        "city": "Melbourne",
+        "state": "VIC",
+        "country": "AU",
+        "area": "唐人街",
+        "latitude": -37.8107686127655,
+        "longitude": 144.96923385414
+      },
+      "facts": {
+        "official_url": "https://www.chinesemuseum.com.au/visit-us?Title=visit-us",
+        "opening_hours_text": null,
+        "admission": {
+          "price_type": "unknown",
+          "currency": null,
+          "adult": null,
+          "child": null,
+          "concession": null,
+          "text": null
+        },
+        "booking_required": null,
+        "accessibility_features": [],
+        "temporary_closure": null
+      },
+      "fact_assertions": [],
+      "inferences": {
+        "recommended_visit_minutes": 90,
+        "indoor_outdoor": "indoor",
+        "tags": [
+          "华人文化",
+          "博物馆",
+          "历史"
+        ],
+        "rainy_day_suitability": "unknown",
+        "generation": {
+          "model": null,
+          "prompt_version": null,
+          "generated_at": null,
+          "evidence_fields": [],
+          "confidence": "not_generated",
+          "review_status": "not_generated"
+        }
+      },
+      "media": [],
+      "provenance": [
+        {
+          "source_name": "City of Melbourne Open Data",
+          "source_record_id": "The Museum Of Australian Chinese History|-37.8107686127655,144.96923385414",
+          "source_url": "https://data.melbourne.vic.gov.au/explore/dataset/landmarks-and-places-of-interest-including-schools-theatres-health-services-spor/information/",
+          "license": "CC BY 4.0",
+          "retrieved_at": "2026-09-14T22:32:43+10:00",
+          "payload_hash": "c79c6816a5155278cc99bc67898ada00a3fe1e1f4b77fd48d582deac85cf0aa0"
+        }
+      ],
+      "verification": {
+        "status": "verified_core",
+        "verified_at": null,
+        "verified_by": "poi-import-v1",
+        "valid_until": null,
+        "notes": "Name and coordinates matched the selected raw CSV row; dynamic facts remain unknown."
+      }
+    },
+    {
+      "poi_id": "mel-princess-theatre-0e371114",
+      "name": {
+        "official": "Princess Theatre",
+        "zh": "公主剧院",
+        "aliases": [
+          "Princess Theatre"
+        ]
+      },
+      "category": {
+        "primary": "art_culture",
+        "secondary": [
+          "Place Of Assembly",
+          "Theatre Live"
+        ]
+      },
+      "location": {
+        "address": null,
+        "suburb": null,
+        "city": "Melbourne",
+        "state": "VIC",
+        "country": "AU",
+        "area": "East End Theatre District",
+        "latitude": -37.8107257091302,
+        "longitude": 144.9723265962
+      },
+      "facts": {
+        "official_url": "https://whatson.melbourne.vic.gov.au/things-to-do/princess-theatre",
+        "opening_hours_text": null,
+        "admission": {
+          "price_type": "unknown",
+          "currency": null,
+          "adult": null,
+          "child": null,
+          "concession": null,
+          "text": null
+        },
+        "booking_required": null,
+        "accessibility_features": [],
+        "temporary_closure": null
+      },
+      "fact_assertions": [],
+      "inferences": {
+        "recommended_visit_minutes": 90,
+        "indoor_outdoor": "indoor",
+        "tags": [
+          "历史建筑",
+          "夜间活动",
+          "演出"
+        ],
+        "rainy_day_suitability": "unknown",
+        "generation": {
+          "model": null,
+          "prompt_version": null,
+          "generated_at": null,
+          "evidence_fields": [],
+          "confidence": "not_generated",
+          "review_status": "not_generated"
+        }
+      },
+      "media": [],
+      "provenance": [
+        {
+          "source_name": "City of Melbourne Open Data",
+          "source_record_id": "Princess Theatre|-37.8107257091302,144.9723265962",
+          "source_url": "https://data.melbourne.vic.gov.au/explore/dataset/landmarks-and-places-of-interest-including-schools-theatres-health-services-spor/information/",
+          "license": "CC BY 4.0",
+          "retrieved_at": "2026-09-14T22:32:43+10:00",
+          "payload_hash": "c79c6816a5155278cc99bc67898ada00a3fe1e1f4b77fd48d582deac85cf0aa0"
+        }
+      ],
+      "verification": {
+        "status": "verified_core",
+        "verified_at": null,
+        "verified_by": "poi-import-v1",
+        "valid_until": null,
+        "notes": "Name and coordinates matched the selected raw CSV row; dynamic facts remain unknown."
+      }
+    },
+    {
+      "poi_id": "mel-imax-melbourne-ca07fd82",
+      "name": {
+        "official": "IMAX Melbourne",
+        "zh": "墨尔本 IMAX 影院",
+        "aliases": [
+          "IMAX Melbourne"
+        ]
+      },
+      "category": {
+        "primary": "family",
+        "secondary": [
+          "Place Of Assembly",
+          "Cinema"
+        ]
+      },
+      "location": {
+        "address": null,
+        "suburb": null,
+        "city": "Melbourne",
+        "state": "VIC",
+        "country": "AU",
+        "area": "Carlton",
+        "latitude": -37.8034315561903,
+        "longitude": 144.970639929886
+      },
+      "facts": {
+        "official_url": "https://imaxmelbourne.com.au/about_imax/contact_us/",
+        "opening_hours_text": null,
+        "admission": {
+          "price_type": "unknown",
+          "currency": null,
+          "adult": null,
+          "child": null,
+          "concession": null,
+          "text": null
+        },
+        "booking_required": null,
+        "accessibility_features": [],
+        "temporary_closure": null
+      },
+      "fact_assertions": [],
+      "inferences": {
+        "recommended_visit_minutes": 120,
+        "indoor_outdoor": "indoor",
+        "tags": [
+          "亲子",
+          "电影",
+          "科技"
+        ],
+        "rainy_day_suitability": "unknown",
+        "generation": {
+          "model": null,
+          "prompt_version": null,
+          "generated_at": null,
+          "evidence_fields": [],
+          "confidence": "not_generated",
+          "review_status": "not_generated"
+        }
+      },
+      "media": [],
+      "provenance": [
+        {
+          "source_name": "City of Melbourne Open Data",
+          "source_record_id": "IMAX Melbourne|-37.8034315561903,144.970639929886",
+          "source_url": "https://data.melbourne.vic.gov.au/explore/dataset/landmarks-and-places-of-interest-including-schools-theatres-health-services-spor/information/",
+          "license": "CC BY 4.0",
+          "retrieved_at": "2026-09-14T22:32:43+10:00",
+          "payload_hash": "c79c6816a5155278cc99bc67898ada00a3fe1e1f4b77fd48d582deac85cf0aa0"
+        }
+      ],
+      "verification": {
+        "status": "verified_core",
+        "verified_at": null,
+        "verified_by": "poi-import-v1",
+        "valid_until": null,
+        "notes": "Name and coordinates matched the selected raw CSV row; dynamic facts remain unknown."
+      }
+    },
+    {
+      "poi_id": "mel-old-treasury-building-dd1cc7d5",
+      "name": {
+        "official": "Old Treasury Building",
+        "zh": "旧财政大厦",
+        "aliases": [
+          "Old Treasury Building"
+        ]
+      },
+      "category": {
+        "primary": "history",
+        "secondary": [
+          "Office"
+        ]
+      },
+      "location": {
+        "address": null,
+        "suburb": null,
+        "city": "Melbourne",
+        "state": "VIC",
+        "country": "AU",
+        "area": "East Melbourne",
+        "latitude": -37.8132371662585,
+        "longitude": 144.974423610255
+      },
+      "facts": {
+        "official_url": "https://www.oldtreasurybuilding.org.au/visit-us/",
+        "opening_hours_text": null,
+        "admission": {
+          "price_type": "unknown",
+          "currency": null,
+          "adult": null,
+          "child": null,
+          "concession": null,
+          "text": null
+        },
+        "booking_required": null,
+        "accessibility_features": [],
+        "temporary_closure": null
+      },
+      "fact_assertions": [],
+      "inferences": {
+        "recommended_visit_minutes": 75,
+        "indoor_outdoor": "indoor",
+        "tags": [
+          "博物馆",
+          "历史",
+          "建筑"
+        ],
+        "rainy_day_suitability": "unknown",
+        "generation": {
+          "model": null,
+          "prompt_version": null,
+          "generated_at": null,
+          "evidence_fields": [],
+          "confidence": "not_generated",
+          "review_status": "not_generated"
+        }
+      },
+      "media": [],
+      "provenance": [
+        {
+          "source_name": "City of Melbourne Open Data",
+          "source_record_id": "Old Treasury Building|-37.8132371662585,144.974423610255",
+          "source_url": "https://data.melbourne.vic.gov.au/explore/dataset/landmarks-and-places-of-interest-including-schools-theatres-health-services-spor/information/",
+          "license": "CC BY 4.0",
+          "retrieved_at": "2026-09-14T22:32:43+10:00",
+          "payload_hash": "c79c6816a5155278cc99bc67898ada00a3fe1e1f4b77fd48d582deac85cf0aa0"
+        }
+      ],
+      "verification": {
+        "status": "verified_core",
+        "verified_at": null,
+        "verified_by": "poi-import-v1",
+        "valid_until": null,
+        "notes": "Name and coordinates matched the selected raw CSV row; dynamic facts remain unknown."
+      }
+    },
+    {
+      "poi_id": "mel-parliament-house-a9afda1c",
+      "name": {
+        "official": "Parliament House",
+        "zh": "维多利亚州议会大厦",
+        "aliases": [
+          "Parliament House"
+        ]
+      },
+      "category": {
+        "primary": "history",
+        "secondary": [
+          "Office"
+        ]
+      },
+      "location": {
+        "address": null,
+        "suburb": null,
+        "city": "Melbourne",
+        "state": "VIC",
+        "country": "AU",
+        "area": "East Melbourne",
+        "latitude": -37.811246655376,
+        "longitude": 144.97372641185
+      },
+      "facts": {
+        "official_url": null,
+        "opening_hours_text": null,
+        "admission": {
+          "price_type": "unknown",
+          "currency": null,
+          "adult": null,
+          "child": null,
+          "concession": null,
+          "text": null
+        },
+        "booking_required": null,
+        "accessibility_features": [],
+        "temporary_closure": null
+      },
+      "fact_assertions": [],
+      "inferences": {
+        "recommended_visit_minutes": 60,
+        "indoor_outdoor": "indoor",
+        "tags": [
+          "历史",
+          "建筑",
+          "政府"
+        ],
+        "rainy_day_suitability": "unknown",
+        "generation": {
+          "model": null,
+          "prompt_version": null,
+          "generated_at": null,
+          "evidence_fields": [],
+          "confidence": "not_generated",
+          "review_status": "not_generated"
+        }
+      },
+      "media": [],
+      "provenance": [
+        {
+          "source_name": "City of Melbourne Open Data",
+          "source_record_id": "Parliament House|-37.811246655376,144.97372641185",
+          "source_url": "https://data.melbourne.vic.gov.au/explore/dataset/landmarks-and-places-of-interest-including-schools-theatres-health-services-spor/information/",
+          "license": "CC BY 4.0",
+          "retrieved_at": "2026-09-14T22:32:43+10:00",
+          "payload_hash": "c79c6816a5155278cc99bc67898ada00a3fe1e1f4b77fd48d582deac85cf0aa0"
+        }
+      ],
+      "verification": {
+        "status": "verified_core",
+        "verified_at": null,
+        "verified_by": "poi-import-v1",
+        "valid_until": null,
+        "notes": "Name and coordinates matched the selected raw CSV row; dynamic facts remain unknown."
+      }
+    },
+    {
+      "poi_id": "mel-st-patricks-cathedral-cdc44bff",
+      "name": {
+        "official": "St Patricks Cathedral",
+        "zh": "圣帕特里克大教堂",
+        "aliases": [
+          "St Patricks Cathedral"
+        ]
+      },
+      "category": {
+        "primary": "history",
+        "secondary": [
+          "Place of Worship",
+          "Church"
+        ]
+      },
+      "location": {
+        "address": null,
+        "suburb": null,
+        "city": "Melbourne",
+        "state": "VIC",
+        "country": "AU",
+        "area": "East Melbourne",
+        "latitude": -37.8101140950474,
+        "longitude": 144.975901529712
+      },
+      "facts": {
+        "official_url": "https://www.visitmelbourne.com/regions/Melbourne/See-and-do/History-and-heritage/Heritage-buildings/VV-St-Patricks-Cathedral",
+        "opening_hours_text": null,
+        "admission": {
+          "price_type": "unknown",
+          "currency": null,
+          "adult": null,
+          "child": null,
+          "concession": null,
+          "text": null
+        },
+        "booking_required": null,
+        "accessibility_features": [],
+        "temporary_closure": null
+      },
+      "fact_assertions": [],
+      "inferences": {
+        "recommended_visit_minutes": 45,
+        "indoor_outdoor": "indoor",
+        "tags": [
+          "历史",
+          "宗教",
+          "建筑"
+        ],
+        "rainy_day_suitability": "unknown",
+        "generation": {
+          "model": null,
+          "prompt_version": null,
+          "generated_at": null,
+          "evidence_fields": [],
+          "confidence": "not_generated",
+          "review_status": "not_generated"
+        }
+      },
+      "media": [],
+      "provenance": [
+        {
+          "source_name": "City of Melbourne Open Data",
+          "source_record_id": "St Patricks Cathedral|-37.8101140950474,144.975901529712",
+          "source_url": "https://data.melbourne.vic.gov.au/explore/dataset/landmarks-and-places-of-interest-including-schools-theatres-health-services-spor/information/",
+          "license": "CC BY 4.0",
+          "retrieved_at": "2026-09-14T22:32:43+10:00",
+          "payload_hash": "c79c6816a5155278cc99bc67898ada00a3fe1e1f4b77fd48d582deac85cf0aa0"
+        }
+      ],
+      "verification": {
+        "status": "verified_core",
+        "verified_at": null,
+        "verified_by": "poi-import-v1",
+        "valid_until": null,
+        "notes": "Name and coordinates matched the selected raw CSV row; dynamic facts remain unknown."
+      }
+    },
+    {
+      "poi_id": "mel-carlton-gardens-south-46d0249e",
+      "name": {
+        "official": "Carlton Gardens South",
+        "zh": "卡尔顿花园南区",
+        "aliases": [
+          "Carlton Gardens South"
+        ]
+      },
+      "category": {
+        "primary": "nature",
+        "secondary": [
+          "Leisure/Recreation",
+          "Informal Outdoor Facility (Park/Garden/Reserve)"
+        ]
+      },
+      "location": {
+        "address": null,
+        "suburb": null,
+        "city": "Melbourne",
+        "state": "VIC",
+        "country": "AU",
+        "area": "Carlton",
+        "latitude": -37.8060684577258,
+        "longitude": 144.971266479841
+      },
+      "facts": {
+        "official_url": null,
+        "opening_hours_text": null,
+        "admission": {
+          "price_type": "unknown",
+          "currency": null,
+          "adult": null,
+          "child": null,
+          "concession": null,
+          "text": null
+        },
+        "booking_required": null,
+        "accessibility_features": [],
+        "temporary_closure": null
+      },
+      "fact_assertions": [],
+      "inferences": {
+        "recommended_visit_minutes": 60,
+        "indoor_outdoor": "outdoor",
+        "tags": [
+          "亲子",
+          "自然",
+          "花园"
+        ],
+        "rainy_day_suitability": "unknown",
+        "generation": {
+          "model": null,
+          "prompt_version": null,
+          "generated_at": null,
+          "evidence_fields": [],
+          "confidence": "not_generated",
+          "review_status": "not_generated"
+        }
+      },
+      "media": [],
+      "provenance": [
+        {
+          "source_name": "City of Melbourne Open Data",
+          "source_record_id": "Carlton Gardens South|-37.8060684577258,144.971266479841",
+          "source_url": "https://data.melbourne.vic.gov.au/explore/dataset/landmarks-and-places-of-interest-including-schools-theatres-health-services-spor/information/",
+          "license": "CC BY 4.0",
+          "retrieved_at": "2026-09-14T22:32:43+10:00",
+          "payload_hash": "c79c6816a5155278cc99bc67898ada00a3fe1e1f4b77fd48d582deac85cf0aa0"
+        }
+      ],
+      "verification": {
+        "status": "verified_core",
+        "verified_at": null,
+        "verified_by": "poi-import-v1",
+        "valid_until": null,
+        "notes": "Name and coordinates matched the selected raw CSV row; dynamic facts remain unknown."
+      }
+    },
+    {
+      "poi_id": "mel-cooks-cottage-ed359f78",
+      "name": {
+        "official": "Cooks' Cottage",
+        "zh": "库克船长小屋",
+        "aliases": [
+          "Cooks' Cottage"
+        ]
+      },
+      "category": {
+        "primary": "history",
+        "secondary": [
+          "Place Of Assembly",
+          "Art Gallery/Museum"
+        ]
+      },
+      "location": {
+        "address": null,
+        "suburb": null,
+        "city": "Melbourne",
+        "state": "VIC",
+        "country": "AU",
+        "area": "Fitzroy Gardens",
+        "latitude": -37.8144604899837,
+        "longitude": 144.979471339826
+      },
+      "facts": {
+        "official_url": null,
+        "opening_hours_text": null,
+        "admission": {
+          "price_type": "unknown",
+          "currency": null,
+          "adult": null,
+          "child": null,
+          "concession": null,
+          "text": null
+        },
+        "booking_required": null,
+        "accessibility_features": [],
+        "temporary_closure": null
+      },
+      "fact_assertions": [],
+      "inferences": {
+        "recommended_visit_minutes": 60,
+        "indoor_outdoor": "indoor",
+        "tags": [
+          "亲子",
+          "历史",
+          "建筑"
+        ],
+        "rainy_day_suitability": "unknown",
+        "generation": {
+          "model": null,
+          "prompt_version": null,
+          "generated_at": null,
+          "evidence_fields": [],
+          "confidence": "not_generated",
+          "review_status": "not_generated"
+        }
+      },
+      "media": [],
+      "provenance": [
+        {
+          "source_name": "City of Melbourne Open Data",
+          "source_record_id": "Cooks' Cottage|-37.8144604899837,144.979471339826",
+          "source_url": "https://data.melbourne.vic.gov.au/explore/dataset/landmarks-and-places-of-interest-including-schools-theatres-health-services-spor/information/",
+          "license": "CC BY 4.0",
+          "retrieved_at": "2026-09-14T22:32:43+10:00",
+          "payload_hash": "c79c6816a5155278cc99bc67898ada00a3fe1e1f4b77fd48d582deac85cf0aa0"
+        }
+      ],
+      "verification": {
+        "status": "verified_core",
+        "verified_at": null,
+        "verified_by": "poi-import-v1",
+        "valid_until": null,
+        "notes": "Name and coordinates matched the selected raw CSV row; dynamic facts remain unknown."
+      }
+    },
+    {
+      "poi_id": "mel-australian-centre-for-contemporary-art-7e8696e7",
+      "name": {
+        "official": "Australian Centre for Contemporary Art",
+        "zh": "澳大利亚当代艺术中心",
+        "aliases": [
+          "Australian Centre for Contemporary Art"
+        ]
+      },
+      "category": {
+        "primary": "art_culture",
+        "secondary": [
+          "Place Of Assembly",
+          "Art Gallery/Museum"
+        ]
+      },
+      "location": {
+        "address": null,
+        "suburb": null,
+        "city": "Melbourne",
+        "state": "VIC",
+        "country": "AU",
+        "area": "Southbank",
+        "latitude": -37.8266045432686,
+        "longitude": 144.967252924593
+      },
+      "facts": {
+        "official_url": "https://acca.melbourne/",
+        "opening_hours_text": null,
+        "admission": {
+          "price_type": "unknown",
+          "currency": null,
+          "adult": null,
+          "child": null,
+          "concession": null,
+          "text": null
+        },
+        "booking_required": null,
+        "accessibility_features": [],
+        "temporary_closure": null
+      },
+      "fact_assertions": [],
+      "inferences": {
+        "recommended_visit_minutes": 90,
+        "indoor_outdoor": "indoor",
+        "tags": [
+          "展览",
+          "当代艺术",
+          "艺术"
+        ],
+        "rainy_day_suitability": "unknown",
+        "generation": {
+          "model": null,
+          "prompt_version": null,
+          "generated_at": null,
+          "evidence_fields": [],
+          "confidence": "not_generated",
+          "review_status": "not_generated"
+        }
+      },
+      "media": [],
+      "provenance": [
+        {
+          "source_name": "City of Melbourne Open Data",
+          "source_record_id": "Australian Centre for Contemporary Art|-37.8266045432686,144.967252924593",
+          "source_url": "https://data.melbourne.vic.gov.au/explore/dataset/landmarks-and-places-of-interest-including-schools-theatres-health-services-spor/information/",
+          "license": "CC BY 4.0",
+          "retrieved_at": "2026-09-14T22:32:43+10:00",
+          "payload_hash": "c79c6816a5155278cc99bc67898ada00a3fe1e1f4b77fd48d582deac85cf0aa0"
+        }
+      ],
+      "verification": {
+        "status": "verified_core",
+        "verified_at": null,
+        "verified_by": "poi-import-v1",
+        "valid_until": null,
+        "notes": "Name and coordinates matched the selected raw CSV row; dynamic facts remain unknown."
+      }
+    },
+    {
+      "poi_id": "mel-eureka-skydeck-88-dc7ebb76",
+      "name": {
+        "official": "Eureka Skydeck 88",
+        "zh": "尤里卡观景台 88",
+        "aliases": [
+          "Eureka Skydeck 88",
+          "Melbourne Skydeck"
+        ]
+      },
+      "category": {
+        "primary": "city_landmark",
+        "secondary": [
+          "Leisure/Recreation",
+          "Observation Tower/Wheel"
+        ]
+      },
+      "location": {
+        "address": null,
+        "suburb": null,
+        "city": "Melbourne",
+        "state": "VIC",
+        "country": "AU",
+        "area": "Southbank",
+        "latitude": -37.8216187583314,
+        "longitude": 144.964622218598
+      },
+      "facts": {
+        "official_url": "https://www.melbourneskydeck.com.au/",
+        "opening_hours_text": null,
+        "admission": {
+          "price_type": "unknown",
+          "currency": null,
+          "adult": null,
+          "child": null,
+          "concession": null,
+          "text": null
+        },
+        "booking_required": null,
+        "accessibility_features": [],
+        "temporary_closure": null
+      },
+      "fact_assertions": [],
+      "inferences": {
+        "recommended_visit_minutes": 75,
+        "indoor_outdoor": "indoor",
+        "tags": [
+          "亲子",
+          "城市地标",
+          "观景"
+        ],
+        "rainy_day_suitability": "unknown",
+        "generation": {
+          "model": null,
+          "prompt_version": null,
+          "generated_at": null,
+          "evidence_fields": [],
+          "confidence": "not_generated",
+          "review_status": "not_generated"
+        }
+      },
+      "media": [],
+      "provenance": [
+        {
+          "source_name": "City of Melbourne Open Data",
+          "source_record_id": "Eureka Skydeck 88|-37.8216187583314,144.964622218598",
+          "source_url": "https://data.melbourne.vic.gov.au/explore/dataset/landmarks-and-places-of-interest-including-schools-theatres-health-services-spor/information/",
+          "license": "CC BY 4.0",
+          "retrieved_at": "2026-09-14T22:32:43+10:00",
+          "payload_hash": "c79c6816a5155278cc99bc67898ada00a3fe1e1f4b77fd48d582deac85cf0aa0"
+        }
+      ],
+      "verification": {
+        "status": "verified_core",
+        "verified_at": null,
+        "verified_by": "poi-import-v1",
+        "valid_until": null,
+        "notes": "Name and coordinates matched the selected raw CSV row; dynamic facts remain unknown."
+      }
+    },
+    {
+      "poi_id": "mel-alexandra-gardens-54764d2c",
+      "name": {
+        "official": "Alexandra Gardens",
+        "zh": "亚历山德拉花园",
+        "aliases": [
+          "Alexandra Gardens"
+        ]
+      },
+      "category": {
+        "primary": "nature",
+        "secondary": [
+          "Leisure/Recreation",
+          "Informal Outdoor Facility (Park/Garden/Reserve)"
+        ]
+      },
+      "location": {
+        "address": null,
+        "suburb": null,
+        "city": "Melbourne",
+        "state": "VIC",
+        "country": "AU",
+        "area": "Southbank",
+        "latitude": -37.8206051404251,
+        "longitude": 144.971796067365
+      },
+      "facts": {
+        "official_url": null,
+        "opening_hours_text": null,
+        "admission": {
+          "price_type": "unknown",
+          "currency": null,
+          "adult": null,
+          "child": null,
+          "concession": null,
+          "text": null
+        },
+        "booking_required": null,
+        "accessibility_features": [],
+        "temporary_closure": null
+      },
+      "fact_assertions": [],
+      "inferences": {
+        "recommended_visit_minutes": 60,
+        "indoor_outdoor": "outdoor",
+        "tags": [
+          "散步",
+          "河畔",
+          "花园"
+        ],
+        "rainy_day_suitability": "unknown",
+        "generation": {
+          "model": null,
+          "prompt_version": null,
+          "generated_at": null,
+          "evidence_fields": [],
+          "confidence": "not_generated",
+          "review_status": "not_generated"
+        }
+      },
+      "media": [],
+      "provenance": [
+        {
+          "source_name": "City of Melbourne Open Data",
+          "source_record_id": "Alexandra Gardens|-37.8206051404251,144.971796067365",
+          "source_url": "https://data.melbourne.vic.gov.au/explore/dataset/landmarks-and-places-of-interest-including-schools-theatres-health-services-spor/information/",
+          "license": "CC BY 4.0",
+          "retrieved_at": "2026-09-14T22:32:43+10:00",
+          "payload_hash": "c79c6816a5155278cc99bc67898ada00a3fe1e1f4b77fd48d582deac85cf0aa0"
+        }
+      ],
+      "verification": {
+        "status": "verified_core",
+        "verified_at": null,
+        "verified_by": "poi-import-v1",
+        "valid_until": null,
+        "notes": "Name and coordinates matched the selected raw CSV row; dynamic facts remain unknown."
+      }
+    },
+    {
+      "poi_id": "mel-kings-domain-57bfc2ba",
+      "name": {
+        "official": "Kings Domain",
+        "zh": "国王领地",
+        "aliases": [
+          "Kings Domain"
+        ]
+      },
+      "category": {
+        "primary": "nature",
+        "secondary": [
+          "Leisure/Recreation",
+          "Informal Outdoor Facility (Park/Garden/Reserve)"
+        ]
+      },
+      "location": {
+        "address": null,
+        "suburb": null,
+        "city": "Melbourne",
+        "state": "VIC",
+        "country": "AU",
+        "area": "Kings Domain",
+        "latitude": -37.8255239795833,
+        "longitude": 144.974107925144
+      },
+      "facts": {
+        "official_url": null,
+        "opening_hours_text": null,
+        "admission": {
+          "price_type": "unknown",
+          "currency": null,
+          "adult": null,
+          "child": null,
+          "concession": null,
+          "text": null
+        },
+        "booking_required": null,
+        "accessibility_features": [],
+        "temporary_closure": null
+      },
+      "fact_assertions": [],
+      "inferences": {
+        "recommended_visit_minutes": 75,
+        "indoor_outdoor": "outdoor",
+        "tags": [
+          "公园",
+          "纪念景观",
+          "自然"
+        ],
+        "rainy_day_suitability": "unknown",
+        "generation": {
+          "model": null,
+          "prompt_version": null,
+          "generated_at": null,
+          "evidence_fields": [],
+          "confidence": "not_generated",
+          "review_status": "not_generated"
+        }
+      },
+      "media": [],
+      "provenance": [
+        {
+          "source_name": "City of Melbourne Open Data",
+          "source_record_id": "Kings Domain|-37.8255239795833,144.974107925144",
+          "source_url": "https://data.melbourne.vic.gov.au/explore/dataset/landmarks-and-places-of-interest-including-schools-theatres-health-services-spor/information/",
+          "license": "CC BY 4.0",
+          "retrieved_at": "2026-09-14T22:32:43+10:00",
+          "payload_hash": "c79c6816a5155278cc99bc67898ada00a3fe1e1f4b77fd48d582deac85cf0aa0"
+        }
+      ],
+      "verification": {
+        "status": "verified_core",
+        "verified_at": null,
+        "verified_by": "poi-import-v1",
+        "valid_until": null,
+        "notes": "Name and coordinates matched the selected raw CSV row; dynamic facts remain unknown."
+      }
+    },
+    {
+      "poi_id": "mel-melbourne-recital-centre-4bdefa9a",
+      "name": {
+        "official": "Melbourne Recital Centre",
+        "zh": "墨尔本演奏中心",
+        "aliases": [
+          "Melbourne Recital Centre"
+        ]
+      },
+      "category": {
+        "primary": "art_culture",
+        "secondary": [
+          "Community Use",
+          "Public Buildings"
+        ]
+      },
+      "location": {
+        "address": null,
+        "suburb": null,
+        "city": "Melbourne",
+        "state": "VIC",
+        "country": "AU",
+        "area": "Arts Precinct",
+        "latitude": -37.8238327885805,
+        "longitude": 144.967682729667
+      },
+      "facts": {
+        "official_url": "https://www.melbournerecital.com.au/visit-us/",
+        "opening_hours_text": null,
+        "admission": {
+          "price_type": "unknown",
+          "currency": null,
+          "adult": null,
+          "child": null,
+          "concession": null,
+          "text": null
+        },
+        "booking_required": null,
+        "accessibility_features": [],
+        "temporary_closure": null
+      },
+      "fact_assertions": [],
+      "inferences": {
+        "recommended_visit_minutes": 90,
+        "indoor_outdoor": "indoor",
+        "tags": [
+          "建筑",
+          "演出",
+          "音乐"
+        ],
+        "rainy_day_suitability": "unknown",
+        "generation": {
+          "model": null,
+          "prompt_version": null,
+          "generated_at": null,
+          "evidence_fields": [],
+          "confidence": "not_generated",
+          "review_status": "not_generated"
+        }
+      },
+      "media": [],
+      "provenance": [
+        {
+          "source_name": "City of Melbourne Open Data",
+          "source_record_id": "Melbourne Recital Centre|-37.8238327885805,144.967682729667",
+          "source_url": "https://data.melbourne.vic.gov.au/explore/dataset/landmarks-and-places-of-interest-including-schools-theatres-health-services-spor/information/",
+          "license": "CC BY 4.0",
+          "retrieved_at": "2026-09-14T22:32:43+10:00",
+          "payload_hash": "c79c6816a5155278cc99bc67898ada00a3fe1e1f4b77fd48d582deac85cf0aa0"
+        }
+      ],
+      "verification": {
+        "status": "verified_core",
+        "verified_at": null,
+        "verified_by": "poi-import-v1",
+        "valid_until": null,
+        "notes": "Name and coordinates matched the selected raw CSV row; dynamic facts remain unknown."
+      }
+    },
+    {
+      "poi_id": "mel-hamer-hall-fbff80ed",
+      "name": {
+        "official": "Hamer Hall",
+        "zh": "哈默音乐厅",
+        "aliases": [
+          "Hamer Hall"
+        ]
+      },
+      "category": {
+        "primary": "art_culture",
+        "secondary": [
+          "Place Of Assembly",
+          "Theatre Live"
+        ]
+      },
+      "location": {
+        "address": null,
+        "suburb": null,
+        "city": "Melbourne",
+        "state": "VIC",
+        "country": "AU",
+        "area": "Arts Precinct",
+        "latitude": -37.8199901009015,
+        "longitude": 144.967992144257
+      },
+      "facts": {
+        "official_url": "https://www.artscentremelbourne.com.au/visit/getting-here",
+        "opening_hours_text": null,
+        "admission": {
+          "price_type": "unknown",
+          "currency": null,
+          "adult": null,
+          "child": null,
+          "concession": null,
+          "text": null
+        },
+        "booking_required": null,
+        "accessibility_features": [],
+        "temporary_closure": null
+      },
+      "fact_assertions": [],
+      "inferences": {
+        "recommended_visit_minutes": 120,
+        "indoor_outdoor": "indoor",
+        "tags": [
+          "建筑",
+          "演出",
+          "音乐"
+        ],
+        "rainy_day_suitability": "unknown",
+        "generation": {
+          "model": null,
+          "prompt_version": null,
+          "generated_at": null,
+          "evidence_fields": [],
+          "confidence": "not_generated",
+          "review_status": "not_generated"
+        }
+      },
+      "media": [],
+      "provenance": [
+        {
+          "source_name": "City of Melbourne Open Data",
+          "source_record_id": "Hamer Hall|-37.8199901009015,144.967992144257",
+          "source_url": "https://data.melbourne.vic.gov.au/explore/dataset/landmarks-and-places-of-interest-including-schools-theatres-health-services-spor/information/",
+          "license": "CC BY 4.0",
+          "retrieved_at": "2026-09-14T22:32:43+10:00",
+          "payload_hash": "c79c6816a5155278cc99bc67898ada00a3fe1e1f4b77fd48d582deac85cf0aa0"
+        }
+      ],
+      "verification": {
+        "status": "verified_core",
+        "verified_at": null,
+        "verified_by": "poi-import-v1",
+        "valid_until": null,
+        "notes": "Name and coordinates matched the selected raw CSV row; dynamic facts remain unknown."
+      }
+    },
+    {
+      "poi_id": "mel-melbourne-aquarium-ce537795",
+      "name": {
+        "official": "Melbourne Aquarium",
+        "zh": "墨尔本水族馆",
+        "aliases": [
+          "Melbourne Aquarium",
+          "SEA LIFE Melbourne Aquarium"
+        ]
+      },
+      "category": {
+        "primary": "family",
+        "secondary": [
+          "Purpose Built",
+          "Aquarium"
+        ]
+      },
+      "location": {
+        "address": null,
+        "suburb": null,
+        "city": "Melbourne",
+        "state": "VIC",
+        "country": "AU",
+        "area": "Southbank",
+        "latitude": -37.8209627824685,
+        "longitude": 144.958425696055
+      },
+      "facts": {
+        "official_url": "https://www.visitsealife.com/melbourne/",
+        "opening_hours_text": null,
+        "admission": {
+          "price_type": "unknown",
+          "currency": null,
+          "adult": null,
+          "child": null,
+          "concession": null,
+          "text": null
+        },
+        "booking_required": null,
+        "accessibility_features": [],
+        "temporary_closure": null
+      },
+      "fact_assertions": [],
+      "inferences": {
+        "recommended_visit_minutes": 120,
+        "indoor_outdoor": "indoor",
+        "tags": [
+          "亲子",
+          "水族馆",
+          "海洋生物"
+        ],
+        "rainy_day_suitability": "unknown",
+        "generation": {
+          "model": null,
+          "prompt_version": null,
+          "generated_at": null,
+          "evidence_fields": [],
+          "confidence": "not_generated",
+          "review_status": "not_generated"
+        }
+      },
+      "media": [],
+      "provenance": [
+        {
+          "source_name": "City of Melbourne Open Data",
+          "source_record_id": "Melbourne Aquarium|-37.8209627824685,144.958425696055",
+          "source_url": "https://data.melbourne.vic.gov.au/explore/dataset/landmarks-and-places-of-interest-including-schools-theatres-health-services-spor/information/",
+          "license": "CC BY 4.0",
+          "retrieved_at": "2026-09-14T22:32:43+10:00",
+          "payload_hash": "c79c6816a5155278cc99bc67898ada00a3fe1e1f4b77fd48d582deac85cf0aa0"
+        }
+      ],
+      "verification": {
+        "status": "verified_core",
+        "verified_at": null,
+        "verified_by": "poi-import-v1",
+        "valid_until": null,
+        "notes": "Name and coordinates matched the selected raw CSV row; dynamic facts remain unknown."
+      }
+    },
+    {
+      "poi_id": "mel-docklands-park-80a8dcf4",
+      "name": {
+        "official": "Docklands Park",
+        "zh": "码头公园",
+        "aliases": [
+          "Docklands Park"
+        ]
+      },
+      "category": {
+        "primary": "nature",
+        "secondary": [
+          "Leisure/Recreation",
+          "Informal Outdoor Facility (Park/Garden/Reserve)"
+        ]
+      },
+      "location": {
+        "address": null,
+        "suburb": null,
+        "city": "Melbourne",
+        "state": "VIC",
+        "country": "AU",
+        "area": "Docklands",
+        "latitude": -37.8209956785618,
+        "longitude": 144.946781702342
+      },
+      "facts": {
+        "official_url": null,
+        "opening_hours_text": null,
+        "admission": {
+          "price_type": "unknown",
+          "currency": null,
+          "adult": null,
+          "child": null,
+          "concession": null,
+          "text": null
+        },
+        "booking_required": null,
+        "accessibility_features": [],
+        "temporary_closure": null
+      },
+      "fact_assertions": [],
+      "inferences": {
+        "recommended_visit_minutes": 60,
+        "indoor_outdoor": "outdoor",
+        "tags": [
+          "公园",
+          "散步",
+          "海滨"
+        ],
+        "rainy_day_suitability": "unknown",
+        "generation": {
+          "model": null,
+          "prompt_version": null,
+          "generated_at": null,
+          "evidence_fields": [],
+          "confidence": "not_generated",
+          "review_status": "not_generated"
+        }
+      },
+      "media": [],
+      "provenance": [
+        {
+          "source_name": "City of Melbourne Open Data",
+          "source_record_id": "Docklands Park|-37.8209956785618,144.946781702342",
+          "source_url": "https://data.melbourne.vic.gov.au/explore/dataset/landmarks-and-places-of-interest-including-schools-theatres-health-services-spor/information/",
+          "license": "CC BY 4.0",
+          "retrieved_at": "2026-09-14T22:32:43+10:00",
+          "payload_hash": "c79c6816a5155278cc99bc67898ada00a3fe1e1f4b77fd48d582deac85cf0aa0"
+        }
+      ],
+      "verification": {
+        "status": "verified_core",
+        "verified_at": null,
+        "verified_by": "poi-import-v1",
+        "valid_until": null,
+        "notes": "Name and coordinates matched the selected raw CSV row; dynamic facts remain unknown."
+      }
+    },
+    {
+      "poi_id": "mel-webb-bridge-8faed710",
+      "name": {
+        "official": "Webb Bridge",
+        "zh": "韦布桥",
+        "aliases": [
+          "Webb Bridge"
+        ]
+      },
+      "category": {
+        "primary": "city_landmark",
+        "secondary": [
+          "Transport",
+          "Bridge"
+        ]
+      },
+      "location": {
+        "address": null,
+        "suburb": null,
+        "city": "Melbourne",
+        "state": "VIC",
+        "country": "AU",
+        "area": "Docklands",
+        "latitude": -37.8232052384507,
+        "longitude": 144.947291011905
+      },
+      "facts": {
+        "official_url": null,
+        "opening_hours_text": null,
+        "admission": {
+          "price_type": "unknown",
+          "currency": null,
+          "adult": null,
+          "child": null,
+          "concession": null,
+          "text": null
+        },
+        "booking_required": null,
+        "accessibility_features": [],
+        "temporary_closure": null
+      },
+      "fact_assertions": [],
+      "inferences": {
+        "recommended_visit_minutes": 30,
+        "indoor_outdoor": "outdoor",
+        "tags": [
+          "建筑",
+          "散步",
+          "桥梁"
+        ],
+        "rainy_day_suitability": "unknown",
+        "generation": {
+          "model": null,
+          "prompt_version": null,
+          "generated_at": null,
+          "evidence_fields": [],
+          "confidence": "not_generated",
+          "review_status": "not_generated"
+        }
+      },
+      "media": [],
+      "provenance": [
+        {
+          "source_name": "City of Melbourne Open Data",
+          "source_record_id": "Webb Bridge|-37.8232052384507,144.947291011905",
+          "source_url": "https://data.melbourne.vic.gov.au/explore/dataset/landmarks-and-places-of-interest-including-schools-theatres-health-services-spor/information/",
+          "license": "CC BY 4.0",
+          "retrieved_at": "2026-09-14T22:32:43+10:00",
+          "payload_hash": "c79c6816a5155278cc99bc67898ada00a3fe1e1f4b77fd48d582deac85cf0aa0"
+        }
+      ],
+      "verification": {
+        "status": "verified_core",
+        "verified_at": null,
+        "verified_by": "poi-import-v1",
+        "valid_until": null,
+        "notes": "Name and coordinates matched the selected raw CSV row; dynamic facts remain unknown."
+      }
+    },
+    {
+      "poi_id": "mel-melbourne-zoo-a0a5f05c",
+      "name": {
+        "official": "Melbourne Zoo",
+        "zh": "墨尔本动物园",
+        "aliases": [
+          "Melbourne Zoo"
+        ]
+      },
+      "category": {
+        "primary": "family",
+        "secondary": [
+          "Leisure/Recreation",
+          "Outdoor Recreation Facility (Zoo, Golf Course)"
+        ]
+      },
+      "location": {
+        "address": null,
+        "suburb": null,
+        "city": "Melbourne",
+        "state": "VIC",
+        "country": "AU",
+        "area": "Parkville",
+        "latitude": -37.7844449253712,
+        "longitude": 144.951371205938
+      },
+      "facts": {
+        "official_url": "https://www.zoo.org.au/MelbourneZoo?banner=2",
+        "opening_hours_text": null,
+        "admission": {
+          "price_type": "unknown",
+          "currency": null,
+          "adult": null,
+          "child": null,
+          "concession": null,
+          "text": null
+        },
+        "booking_required": null,
+        "accessibility_features": [],
+        "temporary_closure": null
+      },
+      "fact_assertions": [],
+      "inferences": {
+        "recommended_visit_minutes": 180,
+        "indoor_outdoor": "outdoor",
+        "tags": [
+          "亲子",
+          "动物园",
+          "自然"
+        ],
+        "rainy_day_suitability": "unknown",
+        "generation": {
+          "model": null,
+          "prompt_version": null,
+          "generated_at": null,
+          "evidence_fields": [],
+          "confidence": "not_generated",
+          "review_status": "not_generated"
+        }
+      },
+      "media": [],
+      "provenance": [
+        {
+          "source_name": "City of Melbourne Open Data",
+          "source_record_id": "Melbourne Zoo|-37.7844449253712,144.951371205938",
+          "source_url": "https://data.melbourne.vic.gov.au/explore/dataset/landmarks-and-places-of-interest-including-schools-theatres-health-services-spor/information/",
+          "license": "CC BY 4.0",
+          "retrieved_at": "2026-09-14T22:32:43+10:00",
+          "payload_hash": "c79c6816a5155278cc99bc67898ada00a3fe1e1f4b77fd48d582deac85cf0aa0"
+        }
+      ],
+      "verification": {
+        "status": "verified_core",
+        "verified_at": null,
+        "verified_by": "poi-import-v1",
+        "valid_until": null,
+        "notes": "Name and coordinates matched the selected raw CSV row; dynamic facts remain unknown."
+      }
+    },
+    {
+      "poi_id": "mel-melbourne-cricket-ground-mcg-72d2d181",
+      "name": {
+        "official": "Melbourne Cricket Ground (MCG)",
+        "zh": "墨尔本板球场（MCG）",
+        "aliases": [
+          "Melbourne Cricket Ground (MCG)"
+        ]
+      },
+      "category": {
+        "primary": "city_landmark",
+        "secondary": [
+          "Leisure/Recreation",
+          "Major Sports & Recreation Facility"
+        ]
+      },
+      "location": {
+        "address": null,
+        "suburb": null,
+        "city": "Melbourne",
+        "state": "VIC",
+        "country": "AU",
+        "area": "East Melbourne",
+        "latitude": -37.8194921618419,
+        "longitude": 144.983402879078
+      },
+      "facts": {
+        "official_url": "https://www.mcg.org.au/australian-sports-museum-mcg-tours/tours-and-experiences/mcg-tours",
+        "opening_hours_text": null,
+        "admission": {
+          "price_type": "unknown",
+          "currency": null,
+          "adult": null,
+          "child": null,
+          "concession": null,
+          "text": null
+        },
+        "booking_required": null,
+        "accessibility_features": [],
+        "temporary_closure": null
+      },
+      "fact_assertions": [],
+      "inferences": {
+        "recommended_visit_minutes": 120,
+        "indoor_outdoor": "mixed",
+        "tags": [
+          "体育",
+          "历史",
+          "场馆"
+        ],
+        "rainy_day_suitability": "unknown",
+        "generation": {
+          "model": null,
+          "prompt_version": null,
+          "generated_at": null,
+          "evidence_fields": [],
+          "confidence": "not_generated",
+          "review_status": "not_generated"
+        }
+      },
+      "media": [],
+      "provenance": [
+        {
+          "source_name": "City of Melbourne Open Data",
+          "source_record_id": "Melbourne Cricket Ground (MCG)|-37.8194921618419,144.983402879078",
+          "source_url": "https://data.melbourne.vic.gov.au/explore/dataset/landmarks-and-places-of-interest-including-schools-theatres-health-services-spor/information/",
+          "license": "CC BY 4.0",
+          "retrieved_at": "2026-09-14T22:32:43+10:00",
+          "payload_hash": "c79c6816a5155278cc99bc67898ada00a3fe1e1f4b77fd48d582deac85cf0aa0"
+        }
+      ],
+      "verification": {
+        "status": "verified_core",
+        "verified_at": null,
+        "verified_by": "poi-import-v1",
+        "valid_until": null,
+        "notes": "Name and coordinates matched the selected raw CSV row; dynamic facts remain unknown."
+      }
+    },
+    {
+      "poi_id": "mel-rod-laver-arena-071bcf11",
+      "name": {
+        "official": "Rod Laver Arena",
+        "zh": "罗德·拉沃尔球场",
+        "aliases": [
+          "Rod Laver Arena"
+        ]
+      },
+      "category": {
+        "primary": "city_landmark",
+        "secondary": [
+          "Leisure/Recreation",
+          "Major Sports & Recreation Facility"
+        ]
+      },
+      "location": {
+        "address": null,
+        "suburb": null,
+        "city": "Melbourne",
+        "state": "VIC",
+        "country": "AU",
+        "area": "Melbourne Park",
+        "latitude": -37.8220456119807,
+        "longitude": 144.978487173787
+      },
+      "facts": {
+        "official_url": "https://rodlaverarena.com.au/",
+        "opening_hours_text": null,
+        "admission": {
+          "price_type": "unknown",
+          "currency": null,
+          "adult": null,
+          "child": null,
+          "concession": null,
+          "text": null
+        },
+        "booking_required": null,
+        "accessibility_features": [],
+        "temporary_closure": null
+      },
+      "fact_assertions": [],
+      "inferences": {
+        "recommended_visit_minutes": 120,
+        "indoor_outdoor": "indoor",
+        "tags": [
+          "场馆",
+          "演出",
+          "网球"
+        ],
+        "rainy_day_suitability": "unknown",
+        "generation": {
+          "model": null,
+          "prompt_version": null,
+          "generated_at": null,
+          "evidence_fields": [],
+          "confidence": "not_generated",
+          "review_status": "not_generated"
+        }
+      },
+      "media": [],
+      "provenance": [
+        {
+          "source_name": "City of Melbourne Open Data",
+          "source_record_id": "Rod Laver Arena|-37.8220456119807,144.978487173787",
+          "source_url": "https://data.melbourne.vic.gov.au/explore/dataset/landmarks-and-places-of-interest-including-schools-theatres-health-services-spor/information/",
+          "license": "CC BY 4.0",
+          "retrieved_at": "2026-09-14T22:32:43+10:00",
+          "payload_hash": "c79c6816a5155278cc99bc67898ada00a3fe1e1f4b77fd48d582deac85cf0aa0"
+        }
+      ],
+      "verification": {
+        "status": "verified_core",
+        "verified_at": null,
+        "verified_by": "poi-import-v1",
+        "valid_until": null,
+        "notes": "Name and coordinates matched the selected raw CSV row; dynamic facts remain unknown."
+      }
+    },
+    {
+      "poi_id": "mel-aami-park-7dc20a4e",
+      "name": {
+        "official": "AAMI Park",
+        "zh": "AAMI 公园体育场",
+        "aliases": [
+          "AAMI Park"
+        ]
+      },
+      "category": {
+        "primary": "city_landmark",
+        "secondary": [
+          "Leisure/Recreation",
+          "Major Sports & Recreation Facility"
+        ]
+      },
+      "location": {
+        "address": null,
+        "suburb": null,
+        "city": "Melbourne",
+        "state": "VIC",
+        "country": "AU",
+        "area": "Melbourne Park",
+        "latitude": -37.8247252673963,
+        "longitude": 144.98380297866
+      },
+      "facts": {
+        "official_url": "https://aamipark.com.au/",
+        "opening_hours_text": null,
+        "admission": {
+          "price_type": "unknown",
+          "currency": null,
+          "adult": null,
+          "child": null,
+          "concession": null,
+          "text": null
+        },
+        "booking_required": null,
+        "accessibility_features": [],
+        "temporary_closure": null
+      },
+      "fact_assertions": [],
+      "inferences": {
+        "recommended_visit_minutes": 120,
+        "indoor_outdoor": "mixed",
+        "tags": [
+          "体育",
+          "场馆",
+          "赛事"
+        ],
+        "rainy_day_suitability": "unknown",
+        "generation": {
+          "model": null,
+          "prompt_version": null,
+          "generated_at": null,
+          "evidence_fields": [],
+          "confidence": "not_generated",
+          "review_status": "not_generated"
+        }
+      },
+      "media": [],
+      "provenance": [
+        {
+          "source_name": "City of Melbourne Open Data",
+          "source_record_id": "AAMI Park|-37.8247252673963,144.98380297866",
+          "source_url": "https://data.melbourne.vic.gov.au/explore/dataset/landmarks-and-places-of-interest-including-schools-theatres-health-services-spor/information/",
+          "license": "CC BY 4.0",
+          "retrieved_at": "2026-09-14T22:32:43+10:00",
+          "payload_hash": "c79c6816a5155278cc99bc67898ada00a3fe1e1f4b77fd48d582deac85cf0aa0"
+        }
+      ],
+      "verification": {
+        "status": "verified_core",
+        "verified_at": null,
+        "verified_by": "poi-import-v1",
+        "valid_until": null,
+        "notes": "Name and coordinates matched the selected raw CSV row; dynamic facts remain unknown."
+      }
+    }
+  ]
+}

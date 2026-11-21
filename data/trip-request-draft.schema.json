@@ -1,0 +1,188 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://melbourne-tripagent.local/schemas/trip-request-draft-v1.schema.json",
+  "title": "TripRequestDraft v1",
+  "description": "Untrusted LLM extraction output. It must be validated and normalized before entering the deterministic planner.",
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "schemaVersion",
+    "destination",
+    "days",
+    "date",
+    "pace",
+    "interests",
+    "preferences",
+    "mustIncludeNames",
+    "excludeNames",
+    "unhandledRequirements",
+    "unresolvedPhrases",
+    "evidence"
+  ],
+  "properties": {
+    "schemaVersion": {
+      "const": "trip-request-draft-v1"
+    },
+    "destination": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["text", "supportedCity"],
+      "properties": {
+        "text": {
+          "type": ["string", "null"],
+          "minLength": 1,
+          "maxLength": 80
+        },
+        "supportedCity": {
+          "enum": ["Melbourne", null]
+        }
+      }
+    },
+    "days": {
+      "type": ["integer", "null"],
+      "minimum": 1,
+      "maximum": 3
+    },
+    "date": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["text", "isoDate", "resolution"],
+      "properties": {
+        "text": {
+          "type": ["string", "null"],
+          "minLength": 1,
+          "maxLength": 40
+        },
+        "isoDate": {
+          "type": ["string", "null"],
+          "pattern": "^\\d{4}-\\d{2}-\\d{2}$"
+        },
+        "resolution": {
+          "enum": ["explicit", "relative_unresolved", "missing"]
+        }
+      }
+    },
+    "pace": {
+      "enum": ["relaxed", "balanced", "packed", null]
+    },
+    "interests": {
+      "type": "array",
+      "maxItems": 5,
+      "uniqueItems": true,
+      "items": {
+        "enum": ["art", "history", "nature", "food", "family"]
+      }
+    },
+    "preferences": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "preferIndoor",
+        "lowWalking",
+        "family",
+        "avoidCrowds"
+      ],
+      "properties": {
+        "preferIndoor": { "type": ["boolean", "null"] },
+        "lowWalking": { "type": ["boolean", "null"] },
+        "family": { "type": ["boolean", "null"] },
+        "avoidCrowds": { "type": ["boolean", "null"] }
+      }
+    },
+    "mustIncludeNames": {
+      "$ref": "#/$defs/placeNames"
+    },
+    "excludeNames": {
+      "$ref": "#/$defs/placeNames"
+    },
+    "unhandledRequirements": {
+      "type": "array",
+      "maxItems": 12,
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": ["kind", "text", "hardness"],
+        "properties": {
+          "kind": {
+            "enum": [
+              "destination_scope",
+              "duration_scope",
+              "origin",
+              "party",
+              "daily_window",
+              "budget",
+              "transport",
+              "accessibility",
+              "dietary",
+              "booking",
+              "other"
+            ]
+          },
+          "text": {
+            "type": "string",
+            "minLength": 1,
+            "maxLength": 160
+          },
+          "hardness": {
+            "enum": ["hard", "soft", "unclear"]
+          }
+        }
+      }
+    },
+    "unresolvedPhrases": {
+      "type": "array",
+      "maxItems": 12,
+      "uniqueItems": true,
+      "items": {
+        "type": "string",
+        "minLength": 1,
+        "maxLength": 160
+      }
+    },
+    "evidence": {
+      "type": "array",
+      "maxItems": 30,
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": ["path", "quote"],
+        "properties": {
+          "path": {
+            "enum": [
+              "/destination",
+              "/days",
+              "/date",
+              "/pace",
+              "/interests",
+              "/preferences/preferIndoor",
+              "/preferences/lowWalking",
+              "/preferences/family",
+              "/preferences/avoidCrowds",
+              "/mustIncludeNames",
+              "/excludeNames",
+              "/unhandledRequirements",
+              "/unresolvedPhrases"
+            ]
+          },
+          "quote": {
+            "type": "string",
+            "minLength": 1,
+            "maxLength": 120
+          }
+        }
+      }
+    }
+  },
+  "$defs": {
+    "placeNames": {
+      "type": "array",
+      "maxItems": 8,
+      "uniqueItems": true,
+      "items": {
+        "type": "string",
+        "minLength": 1,
+        "maxLength": 80
+      }
+    }
+  }
+}

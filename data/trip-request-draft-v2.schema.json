@@ -1,0 +1,363 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://melbourne-tripagent.local/schemas/trip-request-draft-v2.schema.json",
+  "title": "TripRequestDraft v2",
+  "description": "Untrusted, provider-neutral language extraction output. It must pass schema, evidence and semantic validation before deterministic normalization and planning.",
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "schemaVersion",
+    "destination",
+    "days",
+    "date",
+    "originText",
+    "dailyStartText",
+    "dailyStartMinutes",
+    "geography",
+    "pace",
+    "venuePreference",
+    "experiencePreferences",
+    "lowWalking",
+    "family",
+    "avoidCrowds",
+    "party",
+    "budget",
+    "costAssumptions",
+    "mustIncludeNames",
+    "excludeNames",
+    "unhandledRequirements",
+    "unresolvedPhrases",
+    "evidence"
+  ],
+  "properties": {
+    "schemaVersion": {
+      "const": "trip-request-draft-v2"
+    },
+    "destination": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["text", "supportedCity"],
+      "properties": {
+        "text": {
+          "type": ["string", "null"],
+          "minLength": 1,
+          "maxLength": 80
+        },
+        "supportedCity": {
+          "enum": ["Melbourne", null]
+        }
+      }
+    },
+    "days": {
+      "type": ["integer", "null"],
+      "minimum": 1,
+      "maximum": 3
+    },
+    "date": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["text", "isoDate", "resolution"],
+      "properties": {
+        "text": {
+          "type": ["string", "null"],
+          "minLength": 1,
+          "maxLength": 40
+        },
+        "isoDate": {
+          "type": ["string", "null"],
+          "pattern": "^\\d{4}-\\d{2}-\\d{2}$"
+        },
+        "resolution": {
+          "enum": ["explicit", "relative_unresolved", "missing"]
+        }
+      }
+    },
+    "originText": {
+      "type": ["string", "null"],
+      "minLength": 1,
+      "maxLength": 120
+    },
+    "dailyStartText": {
+      "type": ["string", "null"],
+      "minLength": 1,
+      "maxLength": 80
+    },
+    "dailyStartMinutes": {
+      "type": ["integer", "null"],
+      "minimum": 0,
+      "maximum": 1439
+    },
+    "geography": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["scope", "strength"],
+      "properties": {
+        "scope": {
+          "enum": ["cbd_core_v1", "central_city_v1", "supported_inner_city", null]
+        },
+        "strength": {
+          "enum": ["hard", "soft", "unclear", null]
+        }
+      }
+    },
+    "pace": {
+      "enum": ["relaxed", "balanced", "packed", null]
+    },
+    "venuePreference": {
+      "enum": ["strong_indoor", "indoor", "neutral", "outdoor", "strong_outdoor", null]
+    },
+    "experiencePreferences": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "museum_exhibition",
+        "history_heritage",
+        "parks_gardens",
+        "river_city_walk",
+        "city_icons_views",
+        "performance_music",
+        "sports_venues",
+        "market_local_life"
+      ],
+      "properties": {
+        "museum_exhibition": { "$ref": "#/$defs/preferenceState" },
+        "history_heritage": { "$ref": "#/$defs/preferenceState" },
+        "parks_gardens": { "$ref": "#/$defs/preferenceState" },
+        "river_city_walk": { "$ref": "#/$defs/preferenceState" },
+        "city_icons_views": { "$ref": "#/$defs/preferenceState" },
+        "performance_music": { "$ref": "#/$defs/preferenceState" },
+        "sports_venues": { "$ref": "#/$defs/preferenceState" },
+        "market_local_life": { "$ref": "#/$defs/preferenceState" }
+      }
+    },
+    "lowWalking": { "type": ["boolean", "null"] },
+    "family": { "type": ["boolean", "null"] },
+    "avoidCrowds": { "type": ["boolean", "null"] },
+    "party": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "adultFullFareCount",
+        "concessionEligibleCount",
+        "childAges",
+        "ptvPaymentMedium"
+      ],
+      "properties": {
+        "adultFullFareCount": {
+          "type": ["integer", "null"],
+          "minimum": 0,
+          "maximum": 20
+        },
+        "concessionEligibleCount": {
+          "type": ["integer", "null"],
+          "minimum": 0,
+          "maximum": 20
+        },
+        "childAges": {
+          "type": "array",
+          "maxItems": 12,
+          "items": {
+            "type": "integer",
+            "minimum": 0,
+            "maximum": 17
+          }
+        },
+        "ptvPaymentMedium": {
+          "enum": ["contactless", "existing_myki", "new_physical_myki", null]
+        }
+      }
+    },
+    "budget": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["currency", "totalCents"],
+      "properties": {
+        "currency": {
+          "enum": ["AUD", null]
+        },
+        "totalCents": {
+          "type": ["integer", "null"],
+          "minimum": 0,
+          "maximum": 10000000
+        }
+      }
+    },
+    "costAssumptions": {
+      "description": "Traveller-stated lodging/food cost assumptions in AUD cents. Not price facts; never inferred from star ratings or trip days.",
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["accommodation", "food"],
+      "properties": {
+        "accommodation": {
+          "anyOf": [
+            { "type": "null" },
+            {
+              "type": "object",
+              "additionalProperties": false,
+              "required": ["perNightMinCents", "perNightMaxCents", "nights"],
+              "properties": {
+                "perNightMinCents": { "type": "integer", "minimum": 0, "maximum": 10000000 },
+                "perNightMaxCents": { "type": "integer", "minimum": 0, "maximum": 10000000 },
+                "nights": { "type": ["integer", "null"], "minimum": 1, "maximum": 30 }
+              }
+            }
+          ]
+        },
+        "food": {
+          "anyOf": [
+            { "type": "null" },
+            {
+              "type": "object",
+              "additionalProperties": false,
+              "required": ["perPersonPerDayMinCents", "perPersonPerDayMaxCents"],
+              "properties": {
+                "perPersonPerDayMinCents": { "type": "integer", "minimum": 0, "maximum": 10000000 },
+                "perPersonPerDayMaxCents": { "type": "integer", "minimum": 0, "maximum": 10000000 }
+              }
+            }
+          ]
+        }
+      }
+    },
+    "mustIncludeNames": {
+      "$ref": "#/$defs/placeNames"
+    },
+    "excludeNames": {
+      "$ref": "#/$defs/placeNames"
+    },
+    "unhandledRequirements": {
+      "type": "array",
+      "maxItems": 16,
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": ["kind", "text", "hardness"],
+        "properties": {
+          "kind": {
+            "enum": [
+              "destination_scope",
+              "duration_scope",
+              "origin",
+              "daily_start",
+              "daily_end",
+              "geography",
+              "party",
+              "budget",
+              "fare_eligibility",
+              "venue_preference",
+              "experience_preference",
+              "transport",
+              "accessibility",
+              "dietary",
+              "booking",
+              "must_include",
+              "exclude",
+              "live_data",
+              "other"
+            ]
+          },
+          "text": {
+            "type": "string",
+            "minLength": 1,
+            "maxLength": 160
+          },
+          "hardness": {
+            "enum": ["hard", "soft", "unclear"]
+          }
+        }
+      }
+    },
+    "unresolvedPhrases": {
+      "type": "array",
+      "maxItems": 16,
+      "uniqueItems": true,
+      "items": {
+        "type": "string",
+        "minLength": 1,
+        "maxLength": 160
+      }
+    },
+    "evidence": {
+      "type": "array",
+      "maxItems": 128,
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": ["path", "quote", "occurrence"],
+        "properties": {
+          "path": {
+            "enum": [
+              "/destination/text",
+              "/destination/supportedCity",
+              "/days",
+              "/date/text",
+              "/date/isoDate",
+              "/date/resolution",
+              "/originText",
+              "/dailyStartText",
+              "/dailyStartMinutes",
+              "/geography/scope",
+              "/geography/strength",
+              "/pace",
+              "/venuePreference",
+              "/experiencePreferences/museum_exhibition",
+              "/experiencePreferences/history_heritage",
+              "/experiencePreferences/parks_gardens",
+              "/experiencePreferences/river_city_walk",
+              "/experiencePreferences/city_icons_views",
+              "/experiencePreferences/performance_music",
+              "/experiencePreferences/sports_venues",
+              "/experiencePreferences/market_local_life",
+              "/lowWalking",
+              "/family",
+              "/avoidCrowds",
+              "/party/adultFullFareCount",
+              "/party/concessionEligibleCount",
+              "/party/childAges",
+              "/party/ptvPaymentMedium",
+              "/budget/currency",
+              "/budget/totalCents",
+              "/costAssumptions/accommodation",
+              "/costAssumptions/accommodation/nights",
+              "/costAssumptions/food",
+              "/mustIncludeNames",
+              "/excludeNames",
+              "/unhandledRequirements",
+              "/unresolvedPhrases"
+            ]
+          },
+          "quote": {
+            "type": "string",
+            "minLength": 1,
+            "maxLength": 160
+          },
+          "occurrence": {
+            "type": "integer",
+            "minimum": 1,
+            "maximum": 20
+          },
+          "itemIndex": {
+            "type": "integer",
+            "minimum": 0,
+            "maximum": 19
+          }
+        }
+      }
+    }
+  },
+  "$defs": {
+    "preferenceState": {
+      "enum": ["prefer", "neutral", "avoid", null]
+    },
+    "placeNames": {
+      "type": "array",
+      "maxItems": 8,
+      "uniqueItems": true,
+      "items": {
+        "type": "string",
+        "minLength": 1,
+        "maxLength": 80
+      }
+    }
+  }
+}

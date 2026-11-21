@@ -1,0 +1,30 @@
+# dependencies & build output
+node_modules/
+site/dist/
+site/.next/
+site/.vinext/
+site/.wrangler/
+site/bff/.wrangler/
+site/bff/dist/
+*.tsbuildinfo
+
+# local tool state (not project source)
+.playwright-cli/
+.workbuddy/
+.wbapp_*.genie
+site/output/
+
+# secrets — never commit
+.env
+.env.*
+!.env.example
+site/bff/.dev.vars
+site/bff/.dev.vars.*
+!site/bff/.dev.vars.example
+*.pem
+
+# os
+.DS_Store
+
+# stray nested bff dry-run build
+site/bff/bff/

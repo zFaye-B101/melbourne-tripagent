@@ -1,0 +1,113 @@
+{
+  "schemaVersion": "trip-request-draft-v2",
+  "destination": {
+    "text": "墨尔本",
+    "supportedCity": "Melbourne"
+  },
+  "days": 3,
+  "date": {
+    "text": null,
+    "isoDate": null,
+    "resolution": "missing"
+  },
+  "originText": "从 CBD 出发",
+  "dailyStartText": "每天早上十一点出发",
+  "dailyStartMinutes": 660,
+  "geography": {
+    "scope": "central_city_v1",
+    "strength": "soft"
+  },
+  "pace": "relaxed",
+  "venuePreference": "outdoor",
+  "experiencePreferences": {
+    "museum_exhibition": "prefer",
+    "history_heritage": "prefer",
+    "parks_gardens": null,
+    "river_city_walk": null,
+    "city_icons_views": null,
+    "performance_music": null,
+    "sports_venues": null,
+    "market_local_life": null
+  },
+  "lowWalking": true,
+  "family": null,
+  "avoidCrowds": true,
+  "party": {
+    "adultFullFareCount": 2,
+    "concessionEligibleCount": 0,
+    "childAges": [],
+    "ptvPaymentMedium": null
+  },
+  "budget": {
+    "currency": "AUD",
+    "totalCents": 50000
+  },
+  "costAssumptions": {
+    "accommodation": null,
+    "food": null
+  },
+  "mustIncludeNames": ["NGV"],
+  "excludeNames": ["SEA LIFE"],
+  "unhandledRequirements": [],
+  "unresolvedPhrases": [],
+  "evidence": [
+    { "path": "/destination/text", "quote": "墨尔本", "occurrence": 1 },
+    {
+      "path": "/destination/supportedCity",
+      "quote": "墨尔本",
+      "occurrence": 1
+    },
+    { "path": "/days", "quote": "3 天", "occurrence": 1 },
+    { "path": "/originText", "quote": "从 CBD 出发", "occurrence": 1 },
+    {
+      "path": "/dailyStartText",
+      "quote": "每天早上十一点出发",
+      "occurrence": 1
+    },
+    {
+      "path": "/dailyStartMinutes",
+      "quote": "每天早上十一点出发",
+      "occurrence": 1
+    },
+    { "path": "/geography/scope", "quote": "主要在市内", "occurrence": 1 },
+    { "path": "/geography/strength", "quote": "主要在市内", "occurrence": 1 },
+    { "path": "/pace", "quote": "轻松", "occurrence": 1 },
+    { "path": "/venuePreference", "quote": "室外", "occurrence": 1 },
+    {
+      "path": "/experiencePreferences/museum_exhibition",
+      "quote": "博物馆和美术馆",
+      "occurrence": 1
+    },
+    {
+      "path": "/experiencePreferences/history_heritage",
+      "quote": "历史",
+      "occurrence": 1
+    },
+    { "path": "/lowWalking", "quote": "少走路", "occurrence": 1 },
+    { "path": "/avoidCrowds", "quote": "避开人多", "occurrence": 1 },
+    {
+      "path": "/party/adultFullFareCount",
+      "quote": "2 位成人",
+      "occurrence": 1
+    },
+    {
+      "path": "/party/concessionEligibleCount",
+      "quote": "不使用优惠票",
+      "occurrence": 1
+    },
+    { "path": "/budget/currency", "quote": "A$500", "occurrence": 1 },
+    { "path": "/budget/totalCents", "quote": "A$500", "occurrence": 1 },
+    {
+      "path": "/mustIncludeNames",
+      "quote": "一定去 NGV",
+      "occurrence": 1,
+      "itemIndex": 0
+    },
+    {
+      "path": "/excludeNames",
+      "quote": "不要去 SEA LIFE",
+      "occurrence": 1,
+      "itemIndex": 0
+    }
+  ]
+}

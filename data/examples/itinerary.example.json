@@ -1,0 +1,118 @@
+{
+  "itinerary_id": "itinerary-demo-001",
+  "status": "design_fixture_not_verified",
+  "request_id": "trip-demo-001",
+  "data_snapshot": "not-created",
+  "summary": {
+    "days": 2,
+    "estimated_total_cost_aud": null,
+    "walking_distance_km": null,
+    "unverified_dynamic_fields": 4,
+    "hard_constraint_failures": 0,
+    "duplicate_pois": 0
+  },
+  "days": [
+    {
+      "day_id": "day-1",
+      "date": null,
+      "theme": "CBD art and city culture",
+      "start_time": "09:00",
+      "end_time": "17:30",
+      "route_kind": "illustrative",
+      "items": [
+        {
+          "slot_id": "day-1-slot-1",
+          "kind": "poi",
+          "start_time": "09:30",
+          "end_time": "11:00",
+          "poi_id": "MEL-FIXTURE-STATE-LIBRARY",
+          "reason": "Matches the art and culture preference and is suitable as a central-city starting point.",
+          "dynamic_status": "not_verifiable"
+        },
+        {
+          "slot_id": "day-1-transfer-1",
+          "kind": "transfer",
+          "start_time": "11:00",
+          "end_time": "11:20",
+          "mode": "walk",
+          "distance_m": null,
+          "duration_minutes": 20,
+          "estimate": true
+        },
+        {
+          "slot_id": "day-1-slot-2",
+          "kind": "poi",
+          "start_time": "11:20",
+          "end_time": "12:50",
+          "poi_id": "MEL-FIXTURE-FED-SQUARE",
+          "reason": "Provides a second central cultural stop without requiring a cross-city transfer.",
+          "dynamic_status": "not_verifiable"
+        }
+      ]
+    },
+    {
+      "day_id": "day-2",
+      "date": null,
+      "theme": "Southbank art and gardens",
+      "start_time": "09:30",
+      "end_time": "17:00",
+      "route_kind": "illustrative",
+      "items": [
+        {
+          "slot_id": "day-2-slot-1",
+          "kind": "poi",
+          "start_time": "10:00",
+          "end_time": "12:00",
+          "poi_id": "MEL-FIXTURE-NGV",
+          "reason": "Matches the art preference and provides an indoor anchor for the second day.",
+          "dynamic_status": "not_verifiable"
+        },
+        {
+          "slot_id": "day-2-transfer-1",
+          "kind": "transfer",
+          "start_time": "12:00",
+          "end_time": "12:30",
+          "mode": "walk",
+          "distance_m": null,
+          "duration_minutes": 30,
+          "estimate": true
+        },
+        {
+          "slot_id": "day-2-slot-2",
+          "kind": "poi",
+          "start_time": "13:30",
+          "end_time": "15:30",
+          "poi_id": "MEL-FIXTURE-GARDENS",
+          "reason": "Adds an outdoor contrast while keeping the day within the inner-city scope.",
+          "dynamic_status": "not_verifiable"
+        }
+      ]
+    }
+  ],
+  "checks": [
+    {
+      "name": "poi_exists",
+      "status": "not_verifiable",
+      "reason": "The fixture POI store has not been created."
+    },
+    {
+      "name": "no_time_overlap",
+      "status": "pass",
+      "reason": "No fixture time intervals overlap."
+    },
+    {
+      "name": "opening_hours",
+      "status": "not_verifiable",
+      "reason": "The request has no travel date."
+    },
+    {
+      "name": "budget",
+      "status": "not_verifiable",
+      "reason": "Admission and transport cost coverage is incomplete."
+    }
+  ],
+  "warnings": [
+    "This file demonstrates the output shape only and is not a verified Melbourne itinerary.",
+    "All fixture POI IDs must be replaced by records from the future POI snapshot."
+  ]
+}

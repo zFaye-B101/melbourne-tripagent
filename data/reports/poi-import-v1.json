@@ -1,0 +1,30 @@
+{
+  "importVersion": "poi-import-v1",
+  "selectedCount": 40,
+  "rawRowCount": 242,
+  "dynamicFacts": "unknown",
+  "sourcePayloadHash": "c79c6816a5155278cc99bc67898ada00a3fe1e1f4b77fd48d582deac85cf0aa0",
+  "categoryCounts": {
+    "art_culture": 8,
+    "history": 12,
+    "nature": 8,
+    "city_landmark": 7,
+    "market_food": 1,
+    "family": 4
+  },
+  "clusterCounts": {
+    "arts_south": 12,
+    "carlton_east": 11,
+    "cbd_river": 10,
+    "north_cbd": 7
+  },
+  "referenceCounts": {
+    "verified": 28,
+    "unverified": 12
+  },
+  "missingReferenceCount": 0,
+  "duplicateIds": [],
+  "duplicateSourceRowKeys": [],
+  "legacyIdsRetained": true,
+  "failures": []
+}
