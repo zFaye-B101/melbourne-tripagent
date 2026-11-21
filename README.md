@@ -23,6 +23,14 @@
 
 布局参考了 IV 小组作业的 R/Shiny 版本（`melbourne-group-source-20261022.zip`）的导航、右侧 My Trip 与三列规划思路，但没有迁移到 R/Shiny，也没有把规划器搬到服务端。设计取舍、文件清单和验收记录见 [47 号](docs/47_SHOWCASE_UI.md)。展示版已部署到 GitHub Pages；静态环境只走规则路径，云端理解需要 WorkBuddy 同源环境。
 
+GitHub Pages 项目路径构建需要显式设置 base，否则根路径资源会在 `/melbourne-tripagent/` 下 404：
+
+```bash
+cd site
+PAGES_BASE=/melbourne-tripagent/ npm run build
+# 将 dist/client 发布到 melbourne-tripagent 仓库的 gh-pages 分支
+```
+
 ## 仓库与复现
 
 本目录是唯一开发仓库（Git，`main` 分支）。2026-09-28 之前没有版本历史，首个提交就是当时的快照，没有补造历史。`llm-gateway-kit` 已并入 [`packages/llm-gateway-kit/`](packages/llm-gateway-kit/)（原同级目录保留未动），因此单独克隆即可复现：
