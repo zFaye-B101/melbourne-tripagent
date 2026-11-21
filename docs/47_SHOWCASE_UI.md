@@ -72,7 +72,7 @@ Hero：一句话说明 + 4 个可信数字 + 墨尔本天际线 + 规划输入�
 - 30 题 v1 规则基线（2026-11-21 重跑）：`supported 20/20`、`partial 核心 7/7`、`unsupported 核心 3/3`，硬检查 0 失败。报告在 `site/eval/reports/baseline-rules-2026-11-21.md`。
 - 手动检查：桌面 1440 宽和手机 390 宽均渲染首页、发现区、项目说明和页脚；点开“我的行程”能打开抽屉，点“必去”后导航计数从 0 变 1。
 
-线上页面：<https://zfaye-b101.github.io/>。本地验收截图留在开发环境，不进入公开仓库。
+线上页面：<https://zfaye-b101.github.io/melbourne-tripagent/>。本地验收截图留在开发环境，不进入公开仓库。
 
 ## 六、还没做
 

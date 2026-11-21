@@ -7,6 +7,7 @@
  * 规则只外置“可调参数”，不把规划不变量交给配置：时间不重叠、必去/避开、
  * 预算披露、换点冻结等仍由代码保证。
  */
+import { BASE_URL } from './base-url';
 import type {
   AdmissionSnapshot,
   FareSnapshot,
@@ -32,7 +33,7 @@ import {
 
 export { subscribeRuntimeConfig };
 
-const RUNTIME_CONFIG_BASE = '/runtime-config/';
+const RUNTIME_CONFIG_BASE = `${BASE_URL}runtime-config/`;
 const MANIFEST_FILE = 'manifest.json';
 const FILES = {
   poiDataset: 'poi.json',

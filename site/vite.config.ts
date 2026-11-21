@@ -138,6 +138,7 @@ export default defineConfig(async () => {
   const { cloudflare } = await import('@cloudflare/vite-plugin');
 
   return {
+    base: process.env.PAGES_BASE ?? '/',
     // This public value may contain only the HTTPS Parse API address. Provider
     // keys stay in the BFF's secret store and are never bundled into the site.
     define: {

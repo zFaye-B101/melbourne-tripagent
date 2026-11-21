@@ -1,6 +1,8 @@
 import featuredSnapshot from '@/data/featured-pois-v0.4.json';
 import mediaSnapshot from '@/data/poi-media-v0.4.4.json';
 
+import { assetUrl } from './base-url';
+
 export interface PoiPhoto {
   poiId: string;
   imageSrc: string;
@@ -27,7 +29,10 @@ export interface PoiPhoto {
   visualReviewStatus?: string;
 }
 
-export const POI_PHOTOS = mediaSnapshot.items as PoiPhoto[];
+export const POI_PHOTOS = (mediaSnapshot.items as PoiPhoto[]).map((photo) => ({
+  ...photo,
+  imageSrc: assetUrl(photo.imageSrc),
+}));
 
 const PHOTO_BY_POI_ID = new Map(
   POI_PHOTOS.map((photo) => [photo.poiId, photo] as const),

@@ -1,4 +1,6 @@
 import type { Metadata } from 'next';
+
+import { assetUrl } from '@/app/lib/base-url';
 import './globals.css';
 
 const title = 'Melbourne TripAgent · 一句中文，排出能出发的墨尔本行程';
@@ -9,7 +11,7 @@ export const metadata: Metadata = {
   title,
   description,
   icons: {
-    icon: '/favicon.svg',
+    icon: assetUrl('favicon.svg'),
   },
   openGraph: {
     title,
@@ -18,7 +20,7 @@ export const metadata: Metadata = {
     type: 'website',
     images: [
       {
-        url: '/melbourne-skyline.webp',
+        url: assetUrl('melbourne-skyline.webp'),
         width: 1600,
         height: 901,
         alt: '墨尔本城市天际线',
@@ -29,7 +31,7 @@ export const metadata: Metadata = {
     card: 'summary_large_image',
     title,
     description,
-    images: ['/melbourne-skyline.webp'],
+    images: [assetUrl('melbourne-skyline.webp')],
   },
 };
 

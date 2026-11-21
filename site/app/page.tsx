@@ -67,6 +67,7 @@ import { SiteNav } from '@/app/components/site-nav';
 import { TripDrawer } from '@/app/components/trip-drawer';
 import { TripPreparation } from '@/app/components/trip-preparation';
 import { parseAudRangeInput } from '@/app/lib/cost-assumptions';
+import { assetUrl } from '@/app/lib/base-url';
 import { getPoiPhoto } from '@/app/lib/poi-media';
 import {
   EXPERIENCE_FACETS,
@@ -955,7 +956,7 @@ export default function Home() {
                   fill
                   priority
                   sizes="(max-width: 1024px) 100vw, 480px"
-                  src="/melbourne-skyline.webp"
+                  src={assetUrl('melbourne-skyline.webp')}
                 />
                 <div className="absolute inset-0 bg-gradient-to-t from-slate-950/45 to-transparent" />
                 <p className="absolute bottom-2 left-3 text-xs font-semibold text-white">
@@ -2729,7 +2730,7 @@ function TripOverview({
               fill
               onError={onImageError}
               sizes="(min-width: 768px) 260px, 100vw"
-              src="/melbourne-skyline.webp"
+              src={assetUrl('melbourne-skyline.webp')}
             />
           )}
           <figcaption className="absolute inset-x-0 bottom-0 bg-slate-950/65 px-3 py-2 text-xs text-white backdrop-blur-sm">
