@@ -11,7 +11,11 @@
       "nameZh": "联邦广场",
       "nameEn": "Federation Square",
       "category": "city_landmark",
-      "tags": ["历史", "城市地标", "建筑"],
+      "tags": [
+        "历史",
+        "城市地标",
+        "建筑"
+      ],
       "latitude": -37.8178516571684,
       "longitude": 144.968963600783,
       "cluster": "cbd_river",
@@ -25,18 +29,25 @@
       "sourceTheme": "Leisure/Recreation",
       "sourceSubTheme": "Informal Outdoor Facility (Park/Garden/Reserve)",
       "sourceRowKey": "Federation Square|-37.8178516571684,144.968963600783",
-      "aliases": ["Fed Square", "Federation Square"],
+      "aliases": [
+        "Fed Square",
+        "Federation Square"
+      ],
       "referenceUrl": "https://fedsquare.com/getting-here",
       "referenceKind": "venue_official",
-      "referenceStatus": "unverified",
-      "referenceVerifiedAt": null
+      "referenceStatus": "verified",
+      "referenceVerifiedAt": "2026-11-21"
     },
     {
       "id": "mel-cbd-acmi",
       "nameZh": "澳大利亚影像中心",
       "nameEn": "Australian Centre for the Moving Image (ACMI)",
       "category": "art_culture",
-      "tags": ["亲子", "影像", "艺术"],
+      "tags": [
+        "亲子",
+        "影像",
+        "艺术"
+      ],
       "latitude": -37.8176107327202,
       "longitude": 144.969070431323,
       "cluster": "cbd_river",
@@ -57,15 +68,19 @@
       ],
       "referenceUrl": "https://www.acmi.net.au/about/",
       "referenceKind": "venue_official",
-      "referenceStatus": "unverified",
-      "referenceVerifiedAt": null
+      "referenceStatus": "verified",
+      "referenceVerifiedAt": "2026-11-21"
     },
     {
       "id": "mel-arts-ngv-international",
       "nameZh": "维多利亚国家美术馆国际馆",
       "nameEn": "NGV International",
       "category": "art_culture",
-      "tags": ["建筑", "美术馆", "艺术"],
+      "tags": [
+        "建筑",
+        "美术馆",
+        "艺术"
+      ],
       "latitude": -37.8230135000869,
       "longitude": 144.969342535451,
       "cluster": "arts_south",
@@ -79,18 +94,26 @@
       "sourceTheme": "Community Use",
       "sourceSubTheme": "Public Buildings",
       "sourceRowKey": "NGV International|-37.8230135000869,144.969342535451",
-      "aliases": ["NGV", "NGV International", "国家美术馆"],
+      "aliases": [
+        "NGV",
+        "NGV International",
+        "国家美术馆"
+      ],
       "referenceUrl": "https://www.ngv.vic.gov.au/plan-your-visit/",
       "referenceKind": "venue_official",
-      "referenceStatus": "unverified",
-      "referenceVerifiedAt": null
+      "referenceStatus": "verified",
+      "referenceVerifiedAt": "2026-11-21"
     },
     {
       "id": "mel-cbd-state-library",
       "nameZh": "维多利亚州立图书馆",
       "nameEn": "State Library Victoria",
       "category": "history",
-      "tags": ["历史", "建筑", "阅读"],
+      "tags": [
+        "历史",
+        "建筑",
+        "阅读"
+      ],
       "latitude": -37.8099852201226,
       "longitude": 144.964330322397,
       "cluster": "north_cbd",
@@ -104,7 +127,10 @@
       "sourceTheme": "Community Use",
       "sourceSubTheme": "Public Buildings",
       "sourceRowKey": "State Library Victoria|-37.8099852201226,144.964330322397",
-      "aliases": ["State Library Victoria", "州立图书馆"],
+      "aliases": [
+        "State Library Victoria",
+        "州立图书馆"
+      ],
       "referenceUrl": "https://www.slv.vic.gov.au/visit",
       "referenceKind": "venue_official",
       "referenceStatus": "unverified",
@@ -115,7 +141,11 @@
       "nameZh": "维多利亚女王市场",
       "nameEn": "Queen Victoria Market",
       "category": "market_food",
-      "tags": ["历史", "市场", "美食"],
+      "tags": [
+        "历史",
+        "市场",
+        "美食"
+      ],
       "latitude": -37.8075002018073,
       "longitude": 144.957158515056,
       "cluster": "north_cbd",
@@ -129,18 +159,26 @@
       "sourceTheme": "Retail",
       "sourceSubTheme": "Retail",
       "sourceRowKey": "Queen Victoria Market|-37.8075002018073,144.957158515056",
-      "aliases": ["QVM", "Queen Victoria Market", "女王市场"],
+      "aliases": [
+        "QVM",
+        "Queen Victoria Market",
+        "女王市场"
+      ],
       "referenceUrl": "https://qvm.com.au/visit-us/",
       "referenceKind": "venue_official",
-      "referenceStatus": "unverified",
-      "referenceVerifiedAt": null
+      "referenceStatus": "verified",
+      "referenceVerifiedAt": "2026-11-21"
     },
     {
       "id": "mel-cbd-immigration-museum",
       "nameZh": "移民博物馆",
       "nameEn": "Immigration Museum",
       "category": "history",
-      "tags": ["博物馆", "历史", "移民"],
+      "tags": [
+        "博物馆",
+        "历史",
+        "移民"
+      ],
       "latitude": -37.8191798798062,
       "longitude": 144.960426777129,
       "cluster": "cbd_river",
@@ -154,7 +192,10 @@
       "sourceTheme": "Place Of Assembly",
       "sourceSubTheme": "Art Gallery/Museum",
       "sourceRowKey": "Immigration Museum|-37.8191798798062,144.960426777129",
-      "aliases": ["Immigration Museum", "移民博物馆"],
+      "aliases": [
+        "Immigration Museum",
+        "移民博物馆"
+      ],
       "referenceUrl": "https://museumsvictoria.com.au/immigrationmuseum/",
       "referenceKind": "venue_official",
       "referenceStatus": "unverified",
@@ -165,7 +206,11 @@
       "nameZh": "墨尔本博物馆",
       "nameEn": "Melbourne Museum",
       "category": "family",
-      "tags": ["亲子", "博物馆", "历史"],
+      "tags": [
+        "亲子",
+        "博物馆",
+        "历史"
+      ],
       "latitude": -37.8035518129299,
       "longitude": 144.971690718887,
       "cluster": "carlton_east",
@@ -179,7 +224,10 @@
       "sourceTheme": "Place Of Assembly",
       "sourceSubTheme": "Art Gallery/Museum",
       "sourceRowKey": "Melbourne Museum|-37.8035518129299,144.971690718887",
-      "aliases": ["Melbourne Museum", "墨尔本博物馆"],
+      "aliases": [
+        "Melbourne Museum",
+        "墨尔本博物馆"
+      ],
       "referenceUrl": "https://museumsvictoria.com.au/melbournemuseum",
       "referenceKind": "venue_official",
       "referenceStatus": "unverified",
@@ -190,7 +238,11 @@
       "nameZh": "皇家展览馆",
       "nameEn": "Royal Exhibition Building",
       "category": "history",
-      "tags": ["世界遗产", "历史", "建筑"],
+      "tags": [
+        "世界遗产",
+        "历史",
+        "建筑"
+      ],
       "latitude": -37.80460262432,
       "longitude": 144.971521914952,
       "cluster": "carlton_east",
@@ -204,7 +256,10 @@
       "sourceTheme": "Place Of Assembly",
       "sourceSubTheme": "Art Gallery/Museum",
       "sourceRowKey": "Royal Exhibition Building|-37.80460262432,144.971521914952",
-      "aliases": ["Royal Exhibition Building", "皇家展览馆"],
+      "aliases": [
+        "Royal Exhibition Building",
+        "皇家展览馆"
+      ],
       "referenceUrl": "https://museumsvictoria.com.au/reb/",
       "referenceKind": "venue_official",
       "referenceStatus": "unverified",
@@ -215,7 +270,11 @@
       "nameZh": "菲茨罗伊花园",
       "nameEn": "Fitzroy Gardens",
       "category": "nature",
-      "tags": ["散步", "自然", "花园"],
+      "tags": [
+        "散步",
+        "自然",
+        "花园"
+      ],
       "latitude": -37.8129616331579,
       "longitude": 144.980455714669,
       "cluster": "carlton_east",
@@ -229,18 +288,25 @@
       "sourceTheme": "Leisure/Recreation",
       "sourceSubTheme": "Informal Outdoor Facility (Park/Garden/Reserve)",
       "sourceRowKey": "Fitzroy Gardens|-37.8129616331579,144.980455714669",
-      "aliases": ["Fitzroy Gardens", "菲茨罗伊花园"],
+      "aliases": [
+        "Fitzroy Gardens",
+        "菲茨罗伊花园"
+      ],
       "referenceUrl": "https://whatson.melbourne.vic.gov.au/things-to-do/fitzroy-gardens",
       "referenceKind": "venue_official",
-      "referenceStatus": "unverified",
-      "referenceVerifiedAt": null
+      "referenceStatus": "verified",
+      "referenceVerifiedAt": "2026-11-21"
     },
     {
       "id": "mel-south-royal-botanic-gardens",
       "nameZh": "皇家植物园（墨尔本园区）",
       "nameEn": "Royal Botanic Gardens Melbourne",
       "category": "nature",
-      "tags": ["散步", "自然", "花园"],
+      "tags": [
+        "散步",
+        "自然",
+        "花园"
+      ],
       "latitude": -37.8306631583233,
       "longitude": 144.980850432751,
       "cluster": "arts_south",
@@ -262,15 +328,19 @@
       ],
       "referenceUrl": "https://www.rbg.vic.gov.au/",
       "referenceKind": "venue_official",
-      "referenceStatus": "unverified",
-      "referenceVerifiedAt": null
+      "referenceStatus": "verified",
+      "referenceVerifiedAt": "2026-11-21"
     },
     {
       "id": "mel-south-shrine",
       "nameZh": "纪念神殿",
       "nameEn": "Shrine of Remembrance",
       "category": "history",
-      "tags": ["历史", "建筑", "纪念"],
+      "tags": [
+        "历史",
+        "建筑",
+        "纪念"
+      ],
       "latitude": -37.8302080020387,
       "longitude": 144.973441913623,
       "cluster": "arts_south",
@@ -284,18 +354,25 @@
       "sourceTheme": "Community Use",
       "sourceSubTheme": "Public Buildings",
       "sourceRowKey": "Shrine of Remembrance|-37.8302080020387,144.973441913623",
-      "aliases": ["Shrine of Remembrance", "纪念神殿"],
+      "aliases": [
+        "Shrine of Remembrance",
+        "纪念神殿"
+      ],
       "referenceUrl": "https://www.shrine.org.au/",
       "referenceKind": "venue_official",
-      "referenceStatus": "unverified",
-      "referenceVerifiedAt": null
+      "referenceStatus": "verified",
+      "referenceVerifiedAt": "2026-11-21"
     },
     {
       "id": "mel-cbd-old-melbourne-gaol",
       "nameZh": "旧墨尔本监狱",
       "nameEn": "Old Melbourne Gaol",
       "category": "history",
-      "tags": ["博物馆", "历史", "建筑"],
+      "tags": [
+        "博物馆",
+        "历史",
+        "建筑"
+      ],
       "latitude": -37.8077644149636,
       "longitude": 144.965463853978,
       "cluster": "north_cbd",
@@ -316,15 +393,19 @@
       ],
       "referenceUrl": "https://www.oldmelbournegaol.com.au/visit-and-contact/",
       "referenceKind": "venue_official",
-      "referenceStatus": "unverified",
-      "referenceVerifiedAt": null
+      "referenceStatus": "verified",
+      "referenceVerifiedAt": "2026-11-21"
     },
     {
       "id": "mel-the-ian-potter-centre-ngv-australia-c0222b6f",
       "nameZh": "伊恩·波特中心：澳大利亚馆",
       "nameEn": "The Ian Potter Centre: NGV Australia",
       "category": "art_culture",
-      "tags": ["建筑", "澳大利亚艺术", "艺术"],
+      "tags": [
+        "建筑",
+        "澳大利亚艺术",
+        "艺术"
+      ],
       "latitude": -37.8174831423197,
       "longitude": 144.969899048343,
       "cluster": "cbd_river",
@@ -338,7 +419,9 @@
       "sourceTheme": "Place Of Assembly",
       "sourceSubTheme": "Art Gallery/Museum",
       "sourceRowKey": "The Ian Potter Centre: NGV Australia|-37.8174831423197,144.969899048343",
-      "aliases": ["The Ian Potter Centre: NGV Australia"],
+      "aliases": [
+        "The Ian Potter Centre: NGV Australia"
+      ],
       "referenceUrl": "https://www.ngv.vic.gov.au/plan-your-visit/",
       "referenceKind": "venue_official",
       "referenceStatus": "verified",
@@ -349,7 +432,11 @@
       "nameZh": "圣保罗大教堂",
       "nameEn": "St Paul’s Cathedral Melbourne",
       "category": "history",
-      "tags": ["历史", "宗教", "建筑"],
+      "tags": [
+        "历史",
+        "宗教",
+        "建筑"
+      ],
       "latitude": -37.8169549012399,
       "longitude": 144.967681647402,
       "cluster": "cbd_river",
@@ -363,7 +450,10 @@
       "sourceTheme": "Place of Worship",
       "sourceSubTheme": "Church",
       "sourceRowKey": "St Pauls Cathedral|-37.8169549012399,144.967681647402",
-      "aliases": ["St Pauls Cathedral", "St Paul’s Cathedral Melbourne"],
+      "aliases": [
+        "St Pauls Cathedral",
+        "St Paul’s Cathedral Melbourne"
+      ],
       "referenceUrl": "https://cathedral.org.au/explore/visitor-information/",
       "referenceKind": "venue_official",
       "referenceStatus": "verified",
@@ -374,7 +464,11 @@
       "nameZh": "墨尔本市政厅",
       "nameEn": "Melbourne Town Hall",
       "category": "history",
-      "tags": ["历史", "城市文化", "建筑"],
+      "tags": [
+        "历史",
+        "城市文化",
+        "建筑"
+      ],
       "latitude": -37.8150754791411,
       "longitude": 144.966542722283,
       "cluster": "cbd_river",
@@ -388,7 +482,9 @@
       "sourceTheme": "Community Use",
       "sourceSubTheme": "Public Buildings",
       "sourceRowKey": "Melbourne Town Hall|-37.8150754791411,144.966542722283",
-      "aliases": ["Melbourne Town Hall"],
+      "aliases": [
+        "Melbourne Town Hall"
+      ],
       "referenceUrl": "https://whatson.melbourne.vic.gov.au/things-to-do/melbourne-town-hall",
       "referenceKind": "government",
       "referenceStatus": "verified",
@@ -399,7 +495,11 @@
       "nameZh": "弗林德斯街车站",
       "nameEn": "Flinders Street Railway Station",
       "category": "city_landmark",
-      "tags": ["交通", "城市地标", "建筑"],
+      "tags": [
+        "交通",
+        "城市地标",
+        "建筑"
+      ],
       "latitude": -37.8179063007545,
       "longitude": 144.967064817875,
       "cluster": "cbd_river",
@@ -413,7 +513,9 @@
       "sourceTheme": "Transport",
       "sourceSubTheme": "Railway Station",
       "sourceRowKey": "Flinders Street Railway Station|-37.8179063007545,144.967064817875",
-      "aliases": ["Flinders Street Railway Station"],
+      "aliases": [
+        "Flinders Street Railway Station"
+      ],
       "referenceUrl": "https://www.ptv.vic.gov.au/assets/DTP1124-FlindersStreetStation-Precinct-Map_Degraves-Subway_web_Stage-1_v3.pdf",
       "referenceKind": "transport_official",
       "referenceStatus": "verified",
@@ -424,7 +526,11 @@
       "nameZh": "比拉隆·马尔公园",
       "nameEn": "Birrarung Marr",
       "category": "nature",
-      "tags": ["公园", "散步", "河畔"],
+      "tags": [
+        "公园",
+        "散步",
+        "河畔"
+      ],
       "latitude": -37.81806108403,
       "longitude": 144.97314667014,
       "cluster": "cbd_river",
@@ -438,7 +544,9 @@
       "sourceTheme": "Leisure/Recreation",
       "sourceSubTheme": "Informal Outdoor Facility (Park/Garden/Reserve)",
       "sourceRowKey": "Birrarung Marr|-37.81806108403,144.97314667014",
-      "aliases": ["Birrarung Marr"],
+      "aliases": [
+        "Birrarung Marr"
+      ],
       "referenceUrl": "https://whatson.melbourne.vic.gov.au/things-to-do/birrarung-marr",
       "referenceKind": "government",
       "referenceStatus": "verified",
@@ -449,7 +557,11 @@
       "nameZh": "福伦剧院",
       "nameEn": "Forum Melbourne",
       "category": "art_culture",
-      "tags": ["夜间活动", "建筑", "演出"],
+      "tags": [
+        "夜间活动",
+        "建筑",
+        "演出"
+      ],
       "latitude": -37.816485409696,
       "longitude": 144.969386556998,
       "cluster": "cbd_river",
@@ -463,7 +575,10 @@
       "sourceTheme": "Place Of Assembly",
       "sourceSubTheme": "Theatre Live",
       "sourceRowKey": "Forum Theatre|-37.816485409696,144.969386556998",
-      "aliases": ["Forum Melbourne", "Forum Theatre"],
+      "aliases": [
+        "Forum Melbourne",
+        "Forum Theatre"
+      ],
       "referenceUrl": "https://marrinergroup.com.au/forum-melbourne-events",
       "referenceKind": "venue_official",
       "referenceStatus": "verified",
@@ -474,7 +589,11 @@
       "nameZh": "旗杆花园",
       "nameEn": "Flagstaff Gardens",
       "category": "nature",
-      "tags": ["散步", "自然", "花园"],
+      "tags": [
+        "散步",
+        "自然",
+        "花园"
+      ],
       "latitude": -37.8111222889277,
       "longitude": 144.954696055235,
       "cluster": "north_cbd",
@@ -488,7 +607,9 @@
       "sourceTheme": "Leisure/Recreation",
       "sourceSubTheme": "Informal Outdoor Facility (Park/Garden/Reserve)",
       "sourceRowKey": "Flagstaff Gardens|-37.8111222889277,144.954696055235",
-      "aliases": ["Flagstaff Gardens"],
+      "aliases": [
+        "Flagstaff Gardens"
+      ],
       "referenceUrl": "https://whatson.melbourne.vic.gov.au/things-to-do/flagstaff-gardens",
       "referenceKind": "government",
       "referenceStatus": "verified",
@@ -499,7 +620,11 @@
       "nameZh": "澳大利亚华人历史博物馆",
       "nameEn": "Museum of Chinese Australian History",
       "category": "history",
-      "tags": ["华人文化", "博物馆", "历史"],
+      "tags": [
+        "华人文化",
+        "博物馆",
+        "历史"
+      ],
       "latitude": -37.8107686127655,
       "longitude": 144.96923385414,
       "cluster": "north_cbd",
@@ -527,7 +652,11 @@
       "nameZh": "公主剧院",
       "nameEn": "Princess Theatre",
       "category": "art_culture",
-      "tags": ["历史建筑", "夜间活动", "演出"],
+      "tags": [
+        "历史建筑",
+        "夜间活动",
+        "演出"
+      ],
       "latitude": -37.8107257091302,
       "longitude": 144.9723265962,
       "cluster": "north_cbd",
@@ -541,7 +670,9 @@
       "sourceTheme": "Place Of Assembly",
       "sourceSubTheme": "Theatre Live",
       "sourceRowKey": "Princess Theatre|-37.8107257091302,144.9723265962",
-      "aliases": ["Princess Theatre"],
+      "aliases": [
+        "Princess Theatre"
+      ],
       "referenceUrl": "https://whatson.melbourne.vic.gov.au/things-to-do/princess-theatre",
       "referenceKind": "venue_official",
       "referenceStatus": "verified",
@@ -552,7 +683,11 @@
       "nameZh": "墨尔本 IMAX 影院",
       "nameEn": "IMAX Melbourne",
       "category": "family",
-      "tags": ["亲子", "电影", "科技"],
+      "tags": [
+        "亲子",
+        "电影",
+        "科技"
+      ],
       "latitude": -37.8034315561903,
       "longitude": 144.970639929886,
       "cluster": "carlton_east",
@@ -566,7 +701,9 @@
       "sourceTheme": "Place Of Assembly",
       "sourceSubTheme": "Cinema",
       "sourceRowKey": "IMAX Melbourne|-37.8034315561903,144.970639929886",
-      "aliases": ["IMAX Melbourne"],
+      "aliases": [
+        "IMAX Melbourne"
+      ],
       "referenceUrl": "https://imaxmelbourne.com.au/about_imax/contact_us/",
       "referenceKind": "venue_official",
       "referenceStatus": "verified",
@@ -577,7 +714,11 @@
       "nameZh": "旧财政大厦",
       "nameEn": "Old Treasury Building",
       "category": "history",
-      "tags": ["博物馆", "历史", "建筑"],
+      "tags": [
+        "博物馆",
+        "历史",
+        "建筑"
+      ],
       "latitude": -37.8132371662585,
       "longitude": 144.974423610255,
       "cluster": "carlton_east",
@@ -591,7 +732,9 @@
       "sourceTheme": "Office",
       "sourceSubTheme": "Office",
       "sourceRowKey": "Old Treasury Building|-37.8132371662585,144.974423610255",
-      "aliases": ["Old Treasury Building"],
+      "aliases": [
+        "Old Treasury Building"
+      ],
       "referenceUrl": "https://www.oldtreasurybuilding.org.au/visit-us/",
       "referenceKind": "venue_official",
       "referenceStatus": "verified",
@@ -602,7 +745,11 @@
       "nameZh": "维多利亚州议会大厦",
       "nameEn": "Parliament House",
       "category": "history",
-      "tags": ["历史", "建筑", "政府"],
+      "tags": [
+        "历史",
+        "建筑",
+        "政府"
+      ],
       "latitude": -37.811246655376,
       "longitude": 144.97372641185,
       "cluster": "carlton_east",
@@ -616,7 +763,9 @@
       "sourceTheme": "Office",
       "sourceSubTheme": "Office",
       "sourceRowKey": "Parliament House|-37.811246655376,144.97372641185",
-      "aliases": ["Parliament House"],
+      "aliases": [
+        "Parliament House"
+      ],
       "referenceUrl": "https://www.parliament.vic.gov.au/visit",
       "referenceKind": "government",
       "referenceStatus": "verified",
@@ -627,7 +776,11 @@
       "nameZh": "圣帕特里克大教堂",
       "nameEn": "St Patricks Cathedral",
       "category": "history",
-      "tags": ["历史", "宗教", "建筑"],
+      "tags": [
+        "历史",
+        "宗教",
+        "建筑"
+      ],
       "latitude": -37.8101140950474,
       "longitude": 144.975901529712,
       "cluster": "carlton_east",
@@ -641,7 +794,9 @@
       "sourceTheme": "Place of Worship",
       "sourceSubTheme": "Church",
       "sourceRowKey": "St Patricks Cathedral|-37.8101140950474,144.975901529712",
-      "aliases": ["St Patricks Cathedral"],
+      "aliases": [
+        "St Patricks Cathedral"
+      ],
       "referenceUrl": "https://www.visitmelbourne.com/regions/Melbourne/See-and-do/History-and-heritage/Heritage-buildings/VV-St-Patricks-Cathedral",
       "referenceKind": "venue_official",
       "referenceStatus": "verified",
@@ -652,7 +807,11 @@
       "nameZh": "卡尔顿花园南区",
       "nameEn": "Carlton Gardens South",
       "category": "nature",
-      "tags": ["亲子", "自然", "花园"],
+      "tags": [
+        "亲子",
+        "自然",
+        "花园"
+      ],
       "latitude": -37.8060684577258,
       "longitude": 144.971266479841,
       "cluster": "carlton_east",
@@ -666,7 +825,9 @@
       "sourceTheme": "Leisure/Recreation",
       "sourceSubTheme": "Informal Outdoor Facility (Park/Garden/Reserve)",
       "sourceRowKey": "Carlton Gardens South|-37.8060684577258,144.971266479841",
-      "aliases": ["Carlton Gardens South"],
+      "aliases": [
+        "Carlton Gardens South"
+      ],
       "referenceUrl": "https://whatson.melbourne.vic.gov.au/things-to-do/carlton-gardens",
       "referenceKind": "government",
       "referenceStatus": "verified",
@@ -677,7 +838,11 @@
       "nameZh": "库克船长小屋",
       "nameEn": "Cooks' Cottage",
       "category": "history",
-      "tags": ["亲子", "历史", "建筑"],
+      "tags": [
+        "亲子",
+        "历史",
+        "建筑"
+      ],
       "latitude": -37.8144604899837,
       "longitude": 144.979471339826,
       "cluster": "carlton_east",
@@ -691,7 +856,9 @@
       "sourceTheme": "Place Of Assembly",
       "sourceSubTheme": "Art Gallery/Museum",
       "sourceRowKey": "Cooks' Cottage|-37.8144604899837,144.979471339826",
-      "aliases": ["Cooks' Cottage"],
+      "aliases": [
+        "Cooks' Cottage"
+      ],
       "referenceUrl": "https://whatson.melbourne.vic.gov.au/static/tours/Cooks_Cottage_Accessibility_Guide.pdf",
       "referenceKind": "government",
       "referenceStatus": "verified",
@@ -702,7 +869,11 @@
       "nameZh": "澳大利亚当代艺术中心",
       "nameEn": "Australian Centre for Contemporary Art",
       "category": "art_culture",
-      "tags": ["展览", "当代艺术", "艺术"],
+      "tags": [
+        "展览",
+        "当代艺术",
+        "艺术"
+      ],
       "latitude": -37.8266045432686,
       "longitude": 144.967252924593,
       "cluster": "arts_south",
@@ -716,7 +887,9 @@
       "sourceTheme": "Place Of Assembly",
       "sourceSubTheme": "Art Gallery/Museum",
       "sourceRowKey": "Australian Centre for Contemporary Art|-37.8266045432686,144.967252924593",
-      "aliases": ["Australian Centre for Contemporary Art"],
+      "aliases": [
+        "Australian Centre for Contemporary Art"
+      ],
       "referenceUrl": "https://acca.melbourne/",
       "referenceKind": "venue_official",
       "referenceStatus": "verified",
@@ -727,7 +900,11 @@
       "nameZh": "尤里卡观景台 88",
       "nameEn": "Melbourne Skydeck",
       "category": "city_landmark",
-      "tags": ["亲子", "城市地标", "观景"],
+      "tags": [
+        "亲子",
+        "城市地标",
+        "观景"
+      ],
       "latitude": -37.8216187583314,
       "longitude": 144.964622218598,
       "cluster": "arts_south",
@@ -741,7 +918,10 @@
       "sourceTheme": "Leisure/Recreation",
       "sourceSubTheme": "Observation Tower/Wheel",
       "sourceRowKey": "Eureka Skydeck 88|-37.8216187583314,144.964622218598",
-      "aliases": ["Eureka Skydeck 88", "Melbourne Skydeck"],
+      "aliases": [
+        "Eureka Skydeck 88",
+        "Melbourne Skydeck"
+      ],
       "referenceUrl": "https://www.melbourneskydeck.com.au/",
       "referenceKind": "venue_official",
       "referenceStatus": "verified",
@@ -752,7 +932,11 @@
       "nameZh": "亚历山德拉花园",
       "nameEn": "Alexandra Gardens",
       "category": "nature",
-      "tags": ["散步", "河畔", "花园"],
+      "tags": [
+        "散步",
+        "河畔",
+        "花园"
+      ],
       "latitude": -37.8206051404251,
       "longitude": 144.971796067365,
       "cluster": "arts_south",
@@ -766,7 +950,9 @@
       "sourceTheme": "Leisure/Recreation",
       "sourceSubTheme": "Informal Outdoor Facility (Park/Garden/Reserve)",
       "sourceRowKey": "Alexandra Gardens|-37.8206051404251,144.971796067365",
-      "aliases": ["Alexandra Gardens"],
+      "aliases": [
+        "Alexandra Gardens"
+      ],
       "referenceUrl": "https://whatson.melbourne.vic.gov.au/things-to-do/alexandra-gardens",
       "referenceKind": "government",
       "referenceStatus": "verified",
@@ -777,7 +963,11 @@
       "nameZh": "国王领地",
       "nameEn": "Kings Domain",
       "category": "nature",
-      "tags": ["公园", "纪念景观", "自然"],
+      "tags": [
+        "公园",
+        "纪念景观",
+        "自然"
+      ],
       "latitude": -37.8255239795833,
       "longitude": 144.974107925144,
       "cluster": "arts_south",
@@ -791,7 +981,9 @@
       "sourceTheme": "Leisure/Recreation",
       "sourceSubTheme": "Informal Outdoor Facility (Park/Garden/Reserve)",
       "sourceRowKey": "Kings Domain|-37.8255239795833,144.974107925144",
-      "aliases": ["Kings Domain"],
+      "aliases": [
+        "Kings Domain"
+      ],
       "referenceUrl": "https://whatson.melbourne.vic.gov.au/things-to-do/kings-domain",
       "referenceKind": "government",
       "referenceStatus": "verified",
@@ -802,7 +994,11 @@
       "nameZh": "墨尔本演奏中心",
       "nameEn": "Melbourne Recital Centre",
       "category": "art_culture",
-      "tags": ["建筑", "演出", "音乐"],
+      "tags": [
+        "建筑",
+        "演出",
+        "音乐"
+      ],
       "latitude": -37.8238327885805,
       "longitude": 144.967682729667,
       "cluster": "arts_south",
@@ -816,7 +1012,9 @@
       "sourceTheme": "Community Use",
       "sourceSubTheme": "Public Buildings",
       "sourceRowKey": "Melbourne Recital Centre|-37.8238327885805,144.967682729667",
-      "aliases": ["Melbourne Recital Centre"],
+      "aliases": [
+        "Melbourne Recital Centre"
+      ],
       "referenceUrl": "https://www.melbournerecital.com.au/visit-us/",
       "referenceKind": "venue_official",
       "referenceStatus": "verified",
@@ -827,7 +1025,11 @@
       "nameZh": "哈默音乐厅",
       "nameEn": "Hamer Hall",
       "category": "art_culture",
-      "tags": ["建筑", "演出", "音乐"],
+      "tags": [
+        "建筑",
+        "演出",
+        "音乐"
+      ],
       "latitude": -37.8199901009015,
       "longitude": 144.967992144257,
       "cluster": "arts_south",
@@ -841,7 +1043,9 @@
       "sourceTheme": "Place Of Assembly",
       "sourceSubTheme": "Theatre Live",
       "sourceRowKey": "Hamer Hall|-37.8199901009015,144.967992144257",
-      "aliases": ["Hamer Hall"],
+      "aliases": [
+        "Hamer Hall"
+      ],
       "referenceUrl": "https://www.artscentremelbourne.com.au/visit/getting-here",
       "referenceKind": "venue_official",
       "referenceStatus": "verified",
@@ -852,7 +1056,11 @@
       "nameZh": "墨尔本水族馆",
       "nameEn": "SEA LIFE Melbourne Aquarium",
       "category": "family",
-      "tags": ["亲子", "水族馆", "海洋生物"],
+      "tags": [
+        "亲子",
+        "水族馆",
+        "海洋生物"
+      ],
       "latitude": -37.8209627824685,
       "longitude": 144.958425696055,
       "cluster": "cbd_river",
@@ -866,7 +1074,10 @@
       "sourceTheme": "Purpose Built",
       "sourceSubTheme": "Aquarium",
       "sourceRowKey": "Melbourne Aquarium|-37.8209627824685,144.958425696055",
-      "aliases": ["Melbourne Aquarium", "SEA LIFE Melbourne Aquarium"],
+      "aliases": [
+        "Melbourne Aquarium",
+        "SEA LIFE Melbourne Aquarium"
+      ],
       "referenceUrl": "https://www.visitsealife.com/melbourne/",
       "referenceKind": "venue_official",
       "referenceStatus": "verified",
@@ -877,7 +1088,11 @@
       "nameZh": "码头公园",
       "nameEn": "Docklands Park",
       "category": "nature",
-      "tags": ["公园", "散步", "海滨"],
+      "tags": [
+        "公园",
+        "散步",
+        "海滨"
+      ],
       "latitude": -37.8209956785618,
       "longitude": 144.946781702342,
       "cluster": "arts_south",
@@ -891,7 +1106,9 @@
       "sourceTheme": "Leisure/Recreation",
       "sourceSubTheme": "Informal Outdoor Facility (Park/Garden/Reserve)",
       "sourceRowKey": "Docklands Park|-37.8209956785618,144.946781702342",
-      "aliases": ["Docklands Park"],
+      "aliases": [
+        "Docklands Park"
+      ],
       "referenceUrl": "https://whatson.melbourne.vic.gov.au/things-to-do/docklands-park",
       "referenceKind": "government",
       "referenceStatus": "verified",
@@ -902,7 +1119,11 @@
       "nameZh": "韦布桥",
       "nameEn": "Webb Bridge",
       "category": "city_landmark",
-      "tags": ["建筑", "散步", "桥梁"],
+      "tags": [
+        "建筑",
+        "散步",
+        "桥梁"
+      ],
       "latitude": -37.8232052384507,
       "longitude": 144.947291011905,
       "cluster": "arts_south",
@@ -916,7 +1137,9 @@
       "sourceTheme": "Transport",
       "sourceSubTheme": "Bridge",
       "sourceRowKey": "Webb Bridge|-37.8232052384507,144.947291011905",
-      "aliases": ["Webb Bridge"],
+      "aliases": [
+        "Webb Bridge"
+      ],
       "referenceUrl": "https://whatson.melbourne.vic.gov.au/things-to-do/walks/southbank-and-docklands",
       "referenceKind": "government",
       "referenceStatus": "verified",
@@ -927,7 +1150,11 @@
       "nameZh": "墨尔本动物园",
       "nameEn": "Melbourne Zoo",
       "category": "family",
-      "tags": ["亲子", "动物园", "自然"],
+      "tags": [
+        "亲子",
+        "动物园",
+        "自然"
+      ],
       "latitude": -37.7844449253712,
       "longitude": 144.951371205938,
       "cluster": "north_cbd",
@@ -941,7 +1168,9 @@
       "sourceTheme": "Leisure/Recreation",
       "sourceSubTheme": "Outdoor Recreation Facility (Zoo, Golf Course)",
       "sourceRowKey": "Melbourne Zoo|-37.7844449253712,144.951371205938",
-      "aliases": ["Melbourne Zoo"],
+      "aliases": [
+        "Melbourne Zoo"
+      ],
       "referenceUrl": "https://www.zoo.org.au/MelbourneZoo?banner=2",
       "referenceKind": "venue_official",
       "referenceStatus": "verified",
@@ -952,7 +1181,11 @@
       "nameZh": "墨尔本板球场（MCG）",
       "nameEn": "Melbourne Cricket Ground (MCG)",
       "category": "city_landmark",
-      "tags": ["体育", "历史", "场馆"],
+      "tags": [
+        "体育",
+        "历史",
+        "场馆"
+      ],
       "latitude": -37.8194921618419,
       "longitude": 144.983402879078,
       "cluster": "carlton_east",
@@ -966,7 +1199,9 @@
       "sourceTheme": "Leisure/Recreation",
       "sourceSubTheme": "Major Sports & Recreation Facility",
       "sourceRowKey": "Melbourne Cricket Ground (MCG)|-37.8194921618419,144.983402879078",
-      "aliases": ["Melbourne Cricket Ground (MCG)"],
+      "aliases": [
+        "Melbourne Cricket Ground (MCG)"
+      ],
       "referenceUrl": "https://www.mcg.org.au/australian-sports-museum-mcg-tours/tours-and-experiences/mcg-tours",
       "referenceKind": "venue_official",
       "referenceStatus": "verified",
@@ -977,7 +1212,11 @@
       "nameZh": "罗德·拉沃尔球场",
       "nameEn": "Rod Laver Arena",
       "category": "city_landmark",
-      "tags": ["场馆", "演出", "网球"],
+      "tags": [
+        "场馆",
+        "演出",
+        "网球"
+      ],
       "latitude": -37.8220456119807,
       "longitude": 144.978487173787,
       "cluster": "arts_south",
@@ -991,7 +1230,9 @@
       "sourceTheme": "Leisure/Recreation",
       "sourceSubTheme": "Major Sports & Recreation Facility",
       "sourceRowKey": "Rod Laver Arena|-37.8220456119807,144.978487173787",
-      "aliases": ["Rod Laver Arena"],
+      "aliases": [
+        "Rod Laver Arena"
+      ],
       "referenceUrl": "https://rodlaverarena.com.au/",
       "referenceKind": "venue_official",
       "referenceStatus": "verified",
@@ -1002,7 +1243,11 @@
       "nameZh": "AAMI 公园体育场",
       "nameEn": "AAMI Park",
       "category": "city_landmark",
-      "tags": ["体育", "场馆", "赛事"],
+      "tags": [
+        "体育",
+        "场馆",
+        "赛事"
+      ],
       "latitude": -37.8247252673963,
       "longitude": 144.98380297866,
       "cluster": "carlton_east",
@@ -1016,7 +1261,9 @@
       "sourceTheme": "Leisure/Recreation",
       "sourceSubTheme": "Major Sports & Recreation Facility",
       "sourceRowKey": "AAMI Park|-37.8247252673963,144.98380297866",
-      "aliases": ["AAMI Park"],
+      "aliases": [
+        "AAMI Park"
+      ],
       "referenceUrl": "https://aamipark.com.au/",
       "referenceKind": "venue_official",
       "referenceStatus": "verified",
